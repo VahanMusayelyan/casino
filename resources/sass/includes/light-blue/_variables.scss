@@ -1,0 +1,104 @@
+$theme-color-primary: #0092e1;
+//$theme-color-secondary: darken($theme-color-primary, 20%);
+$theme-color-secondary: #f0efe9;
+$theme-color-info: lighten($theme-color-primary, 20%);
+
+$theme-colors: (
+  'primary': $theme-color-primary,
+  'secondary': $theme-color-secondary,
+  'info': $theme-color-info
+);
+
+// balloon-css background (node_modules/balloon-css/src/balloon.scss)
+$balloon-bg: $theme-color-primary;
+
+// Body
+$body-bg: #fffef6;
+$body-color: #212529; // grey-900
+// links
+$link-color: $theme-color-primary;
+$link-hover-color: lighten($link-color, 7.5%);
+// tabs
+$nav-tabs-link-active-color: $body-color;
+$nav-tabs-link-active-bg: $theme-color-primary;
+// card
+$card-bg: transparent;
+// list
+$list-group-bg: transparent;
+$list-group-border-color: rgba(#000, 0.15);
+// table
+$table-border-color: rgba(#000, 0.15);
+// form
+$input-bg: transparent;
+$input-color: $body-color;
+$input-focus-color: $body-color;
+$input-group-addon-bg: transparent;
+$input-disabled-bg: transparent;
+$input-group-addon-border-color: #ced4da;
+// modal
+$modal-content-bg: $theme-color-secondary;
+$modal-content-color: $body-color;
+// select
+$custom-select-bg: $theme-color-secondary;
+// pagination
+$pagination-bg: rgba(255,255,255,0.6);
+$pagination-border-color: $theme-color-primary;
+$pagination-hover-bg: $theme-color-primary;
+$pagination-hover-color: #fff;
+$pagination-hover-border-color: none;
+$pagination-disabled-bg: rgba(255,255,255,0.6);
+$pagination-disabled-border-color: $theme-color-primary;
+// dropdown
+$dropdown-bg: $theme-color-primary;
+$dropdown-border-color: $theme-color-secondary;
+$dropdown-divider-bg: $body-color;
+$dropdown-link-color: rgba(255, 255, 255, 0.75);
+$dropdown-link-hover-bg: lighten($theme-color-primary, 10%);
+$dropdown-link-hover-color: #fff;
+$dropdown-header-color: $theme-color-secondary;
+$dropdown-divider-bg: $theme-color-secondary;
+// switch
+$custom-control-indicator-border-color: $theme-color-primary;
+$custom-control-indicator-bg: $theme-color-info;
+// shadow
+$box-shadow-sm: 0 0 1rem 0 rgba($theme-color-primary, .8);
+$box-shadow: 0 0 2rem 0.2rem rgba($theme-color-primary, .8);
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Light blue theme bootstrap overrides
+body.theme-light-blue {
+  .btn-primary {
+    @include button-variant(
+                    $theme-color-primary, //$background
+                    $theme-color-primary, // $border
+                    lighten($theme-color-primary, 7.5%), // $hover-background
+                    lighten($theme-color-primary, 10%), // $hover-border
+                    lighten($theme-color-primary, 10%), // $active-background
+                    lighten($theme-color-primary, 12.5%) // $active-border
+    );
+  }
+
+  .text-primary {
+    color: lighten($theme-color-primary, 10%) !important;
+  }
+
+  .border-primary {
+    border-color: lighten($theme-color-primary, 10%) !important;
+  }
+  .input-group {
+    .input-group-append {
+      .btn {
+        color: $body-color;
+        border-color: $input-group-addon-border-color;
+      }
+    }
+  }
+  .custom-switch {
+    .custom-control-label {
+      color: #fff;
+    }
+  }
+}

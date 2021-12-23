@@ -1,0 +1,251 @@
+.container {
+    min-height: 71.8vh;
+}
+
+.content {
+    padding: 0 !important;
+    min-height: 50vh;
+}
+
+#content {
+    background: transparent !important;
+}
+
+.deposit, .deposit:focus, .deposit:active {
+    background-color: #538c31 !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.amount_credit::placeholder {
+    color: #797979;
+    opacity: 0.5;
+}
+
+.process, .process:hover, .process:focus {
+    width: 97%;
+    padding: 8px 10px;
+    margin-left: 0;
+    background-color: #538c31;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: -.160891px;
+    color: #fff;
+    text-align: center;
+}
+
+.content .payment-deposit-block .deposit-amount form .proceed {
+    height: 90px;
+}
+
+.payment-history-block {
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: none;
+}
+
+.payment_block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pagination li, .pagination li a, .pagination li a span, .pagination span {
+    background-color: #141414 !important;
+}
+
+.pagination li.active span {
+    color: #FFFFFF;
+    background-color: #538c31 !important;
+
+}
+
+.page-item.disabled .page-link {
+    border: 1px solid #538c31 !important;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.page-link, .page-item.active .page-link {
+    border: 1px solid #538c31;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+select {
+    background: #141414 !important;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.payment-deposit {
+    width: 50%;
+}
+
+.content .payment-deposit-block .deposit-amount form div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: block;
+}
+
+.form-row .form-group {
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(1) > div > input,
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > input {
+    display: inline-block;
+    padding: 16px 24px;
+    border-radius: 0;
+    background-color: #2a2a2a;
+    font-family: Montserrat;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    text-align: left;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(1) > div > div > span,
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > div > select
+{
+    margin-left: 10px;
+    outline: 0;
+    border: none;
+    height: 54px;
+    width: 109px;
+    background: #141414;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: .22693px;
+    padding: 13px;
+    color: #8e8e8e;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-withdraw-block > div > div{
+    display: unset;
+}
+
+.input-group-append {
+    display: inline-block !important;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div:nth-child(4) > div > div.input-group.is-invalid > select {
+    width: 97%;
+    font-size: 16px;
+    margin-left: 0;
+}
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > label{
+    display: none;
+}
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div:nth-child(4) > div > div.input-group.is-invalid > button {
+    width:97%;
+    padding: 8px 10px;
+    margin-left: 0;
+    background-color: #538c31;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    height: 46px;
+    border-radius: 0;
+}
+*:focus{
+    box-shadow: none!important;
+}
+.btn_actions:focus{
+    border: none;
+    outline: none;
+}
+.payment-withdraw-block{
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+}
+.btn_actions a{
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+}
+
+@media (max-width: 768px) {
+    [data-balloon][data-balloon-pos=up]:after, [data-balloon][data-balloon-pos=up]:before, .far.fa-question-circle {
+        display: none;
+    }
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 68% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-navbar button {
+        height: auto !important;
+    }
+
+    .btn_actions a {
+        line-height: 35px !important;
+    }
+    .payment-withdraw-block{
+        padding-left: 0!important;
+        padding-right: 0!important;
+
+    }
+
+    table.table{
+        font-size: 12px!important;
+    }
+}
+
+
+@media (max-width: 550px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 68% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-navbar button {
+        height: auto !important;
+    }
+
+    .btn_actions a {
+        line-height: 35px !important;
+    }
+    .payment-withdraw-block{
+        padding-left: 0!important;
+        padding-right: 0!important;
+
+    }
+
+    [data-balloon][data-balloon-pos=up]:after, [data-balloon][data-balloon-pos=up]:before, .far.fa-question-circle {
+        display: none;
+    }
+
+    .content{
+        min-height: 32vh;
+    }
+
+    .content .payment-navbar {
+        padding: 11px 0;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+@import 'includes/variables';
+@import 'includes/cannon-pink/variables';
+@import 'includes/style';
+
+.game-page #content {
+    background: $theme-color-secondary;
+    background: linear-gradient(
+            180deg,
+            $theme-color-secondary 0%,
+            lighten($theme-color-secondary, 4%) 50%,
+            lighten($theme-color-secondary, 8%) 100%
+    );
+}

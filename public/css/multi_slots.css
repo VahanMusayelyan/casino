@@ -1,0 +1,976 @@
+#game-container, .custom_blackjack, #content {
+    background-color: transparent !important;
+
+}
+
+/*#game-container::after {*/
+/*    content: url('/assets/img/games/crypto_slots/crypto_slot_logo.svg');*/
+/*}*/
+
+.position-absolute box_shadow {
+    z-index: -10000;
+}
+
+body.games-multi-slots-show.theme-dark-purple {
+    background-color: transparent !important;
+    background-image: url('/assets/img/games/blackjack/blackjack_background.png');
+    background-size: cover;
+}
+
+#game-container {
+    background: transparent;
+}
+
+.bet {
+    background: #05492E !important;
+    box-shadow: 0px 2px 4px #229363, inset 0px 1px 10px #01331F !important;
+    border-radius: 3px !important;
+    border: 0 !important;
+}
+
+.game-slots-container .bets .bet.red {
+    background: #D44C3C !important;
+    color: #fff;
+    border-color: #D44C3C !important;
+    box-shadow: none !important;
+
+}
+
+.game-slots-container .bets .bet.black {
+    background: #35372D !important;
+    border-color: #35372D !important;
+    box-shadow: none !important;
+
+}
+
+.bets.bet-ready {
+    background: linear-gradient(180deg, #256B4D 0%, #1C6A49 99.2%) !important;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 27%) !important;
+    border-radius: 9px !important;
+    padding: 15px !important;
+    position: relative;
+    z-index: 9999;
+}
+
+.game-slots-container .roulette .roulette-source {
+    z-index: 9999999;
+}
+
+button.btn.btn-primary.btn-lg.btn-play.mt-1 {
+    font-size: 20px !important;
+    width: 140px;
+    height: 50px;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background: linear-gradient(180deg, #22A06A 0%, #15915C 100%) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+    color: white !important;
+}
+
+.game-american-roulette-container {
+    margin-bottom: 80px !important;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+#game-container .form-group .input-group .input-group-append .btn,
+#game-container .form-group .input-group .input-group-text,
+.form-group .input-group input {
+    background: linear-gradient(
+            180deg, #00301D 0.47%, #003B23 100%) !important;
+    box-shadow: 0px 2px 4px #188858 !important;
+    /* border-radius: 6px; */
+    border: 0 !important;
+    font-size: 14px !important;
+
+}
+
+#game-container .form-group label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px !important;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+}
+
+#game-container > div:nth-child(7) {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.form-row .btn-primary, input.form-control.rounded.text-center,
+button.btn.btn-primary.btn-lg.btn-play.mt-1 {
+    background: linear-gradient(
+            180deg, #FFD200 0%, #FF9500 100%) !important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%) !important;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #000000 !important;
+    background-color: #D2BF64 !important;
+    border-color: #D2BF64 !important;
+}
+
+button.btn.btn-primary.btn-lg.btn-play.mt-1 {
+    background: linear-gradient(180deg, #48C84B 0%, #2A8A2E 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+}
+
+input.form-control.rounded.text-center {
+    background: linear-gradient(
+            180deg, #FFD200 0%, #FF9500 100%) !important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%) !important;
+    background-color: #D2BF64 !important;
+    border-color: #D2BF64 !important;
+
+}
+
+/* canvas{
+    background: linear-gradient(
+313deg
+, #003C24 16.56%, rgba(0, 59, 37, 0.0001) 66.48%);
+    position: absolute!important;
+    right: 7px;
+    transform: rotateZ(45deg)!important;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(
+143.51deg, #003C24 16.56%, rgba(0, 59, 37, 0.0001) 66.48%)!important;
+    filter: blur(8.15485px);
+    z-index: 9;
+} */
+.line-btns .btn.btn-outline-light:nth-child(even) {
+    background: #FDE486;
+    background-color: #FDE486;
+}
+
+.line-btns .btn.btn-outline-light:nth-child(odd) {
+    background: #F0EAD7;
+    background-color: #F0EAD7;
+}
+
+.line-btns .btn.btn-outline-light {
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #3C332F;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label:after {
+    background-color: #FFFFFF;
+}
+
+.crypto_slots_logo_cont {
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box_shadow {
+    top: 285px;
+    z-index: -100000;
+    left: 80px;
+}
+
+.crypto_slots_logo {
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.actions_block.d-inline-block {
+    position: absolute;
+    right: 35px;
+    top: 74px;
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+
+
+.game-american-roulette-container .roulette {
+    z-index: 99999999 !important;
+}
+
+img.position-absolute.roulette_oval {
+    z-index: 9999999;
+    top: 240px;
+}
+
+.game-american-roulette-container .roulette .outside .st0 {
+    display: none;
+}
+
+.roulette_oval {
+    left: 15px;
+    width: 355px;
+    height: 355px;
+}
+
+.custom-switch .custom-control-label:before {
+    background: #003822;
+    border-radius: 8px;
+}
+
+.custom-control-input:checked ~ .custom-control-label:before {
+    background: #00301D !important;
+    background-color: #00301D !important;
+}
+
+.custom-switch .custom-control-label:after {
+    background-color: #FFFFFF !important;
+}
+
+#game-container > div:nth-child(6) > div button {
+    margin-right: 0px !important;
+}
+
+#game-container .form-group .input-group .input-group-append .btn:hover {
+    color: white !important;
+}
+
+.modal-open .modal {
+    z-index: 999999999;
+}
+
+[data-balloon] {
+    color: white !important;
+}
+
+#game-container > div.text-right {
+    height: 100px;
+}
+
+@media (max-width: 1024px) {
+    .game-american-roulette-container .roulette {
+        width: 320px;
+    }
+
+    img.position-absolute.roulette_oval {
+        z-index: 9999999;
+        top: 235px;
+        width: 345px;
+        left: 28px;
+        height: fit-content;
+    }
+
+    .box_shadow {
+        width: 420px;
+    }
+
+    .container, #content {
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .line-btns .btn.btn-outline-light {
+        border: 0;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 27px;
+        text-align: center;
+        color: #3C332F;
+        height: 24px;
+    }
+}
+
+@media (max-width: 993px) {
+    img.position-absolute.roulette_oval {
+        z-index: 9999999;
+        top: 230px;
+        width: 345px;
+        left: 22px;
+        height: fit-content;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+    #game-container > div:nth-child(7) {
+        width: 100% !important;
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+    }
+
+    #game-container > div:nth-child(7) .form-group.col-md-6.text-center {
+        max-width: 100% !important;
+    }
+
+}
+
+@media (max-width: 881px) {
+    .game-american-roulette-container {
+        grid-template-columns: 56%;
+        display: grid;
+        justify-content: center;
+        grid-row-gap: 80px;
+    }
+
+    .game-american-roulette-container .roulette {
+        margin: 0 auto;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: 16px;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .box_shadow {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    img.position-absolute.roulette_oval {
+        left: 16px;
+        right: 0;
+        margin: 0 auto;
+        top: 164px;
+    }
+
+    #game-container > div.game-slots-container > canvas{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    #game-container > div:nth-child(7) {
+        grid-template-columns: 50%;
+        justify-content: center;
+    }
+
+    .game-american-roulette-container {
+        grid-template-columns: 90%;
+        justify-content: center;
+    }
+
+    .bets.bet-ready {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .game-american-roulette-container {
+        grid-template-columns: 100%;
+    }
+
+    .roulette {
+        top: 17px;
+    }
+
+    #game-container {
+        padding: 0 !important;
+    }
+
+    /* .game-american-roulette-container .bets .bet.h4, .game-american-roulette-container .bets .bet.h2{
+        width: calc(((115vw - 30px - 32px - 32px - 16px - 4px*16) / 14)*2 + 4px*1);
+
+    } */
+    .game-american-roulette-container .roulette canvas {
+        position: absolute;
+        top: 30% !important;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 99%;
+        z-index: 4;
+    }
+    .game-slots-container .separators {
+
+        top: 0px;
+
+    }
+    .game-slots-container {
+        grid-template-columns: 100%;
+        display: block;
+        justify-content: center;
+        grid-row-gap: 80px;
+    }
+    .game-slots-container .separators {
+        width: calc(52.8% - 16px);
+        height: 172px!important;
+    }
+    #game-container > div.game-slots-container{
+        display: block!important;
+    }
+    .line-btns .btn.btn-outline-light {
+        border: 0;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 34px;
+        text-align: center;
+        color: #3C332F;
+    }
+    #game-container > div.game-slots-container > div.line-btns.left > button{
+        line-height: 19px;
+    }
+    #game-container > div.game-slots-container > div.line-btns.right > button{
+        line-height: 19px;
+    }
+    #game-container > div:nth-child(7) {
+        width: 100% !important;
+        display: block;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 0;
+        top: 40px;
+        z-index: 99999;
+        /* width: 43px; */
+    }
+    .custom-control {
+        width: 50%;
+        margin: 0 auto !important;
+    }
+}
+
+.game-american-roulette-container .roulette canvas {
+    z-index: 99999999999999999999999;
+}
+
+@media (max-width: 1200px) {
+    .roulette_oval {
+        left: 20px;
+        width: 235px;
+        height: 310px;
+    }
+
+    .box_shadow {
+        top: 300px;
+        z-index: 999999;
+        left: 48px;
+        width: 36%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .box_shadow {
+        top: 280px;
+        z-index: 999999;
+        left: 48px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 881px) {
+
+    .box_shadow {
+        top: 280px;
+        z-index: 9;
+        left: 233px;
+        width: 70%;
+        display: block;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .game-american-roulette-container {
+        grid-template-columns: 61%;
+        display: grid;
+        justify-content: center;
+        grid-row-gap: 80px;
+    }
+
+    .actions_block.d-inline-block {
+        z-index: 99999999;
+        /* width: 43px; */
+
+    }
+}
+
+.actions_block.d-inline-block {
+
+    z-index: 1039;
+    /* width: 43px; */
+
+}
+
+div#provably-fair-form {
+    top: 125px;
+    position: absolute;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .crypto_slots_logo {
+        top: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    div#provably-fair-form {
+        top: 115px;
+        position: absolute;
+    }
+
+    .game-american-roulette-container {
+        grid-template-columns: 65%;
+        display: grid;
+        justify-content: center;
+        grid-row-gap: 80px;
+    }
+
+    .game-slots-container .roulette .roulette-source {
+        width: 83.7375%;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        display: block;
+        z-index: 1;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+#game-container > div.text-right {
+    height: 112px;
+    position: relative;
+    top: -15px;
+}
+
+@media (max-width: 571px) {
+    .crypto_slots_logo {
+        top: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 130px;
+    }
+
+    .game-slots-container .line-btns {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: fit-content;
+        width: 86%;
+        margin: 0 auto;
+    }
+
+    .game-slots-container canvas {
+        width: 100%;
+        margin: 0px 0;
+    }
+
+    img.position-absolute.box_shadow {
+        display: none;
+    }
+
+    .game-slots-container {
+        grid-template-columns: 100%;
+        display: grid;
+        justify-content: center;
+        grid-row-gap: 80px;
+    }
+
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        z-index: 99999;
+        /* width: 43px; */
+
+    }
+
+    #game-container > div:nth-child(7) {
+        grid-template-columns: 80%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    div#provably-fair-form {
+        top: 112px;
+        position: absolute;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: -14px;
+        right: 0;
+        margin: 0 auto;
+        top: 137px;
+    }
+    .game-slots-container .separators {
+        width: calc(52.8% - 16px);
+        height: 162px!important;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > div > button{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        height: 30px!important;
+    }
+    #game-container > div.game-slots-container > canvas {
+        padding-top: 3px;
+    }
+    #game-container > div.text-center.text-glow.my-3 > span{
+        font-size: 13px;
+    }
+    [data-balloon][data-balloon-pos=down]:after, [data-balloon][data-balloon-pos=down]:before{
+        left: 0!important;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .crypto_slots_logo {
+        top: 71px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 147px;
+    }
+
+    #game-container > div.text-center.text-glow.my-3 {
+        margin-bottom: 0;
+    }
+
+    .game-american-roulette-container {
+        margin-bottom: 80px !important;
+        justify-content: space-between;
+        margin-top: 0px !important;
+    }
+
+    .game-american-roulette-container .roulette .roulette-source {
+        left: 45%;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: -14px;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: -14px;
+        right: 0;
+        margin: 0 auto;
+        top: 137px;
+    }
+
+    .game-american-roulette-container {
+        margin-bottom: 80px !important;
+        justify-content: space-between;
+        margin-top: 64px !important;
+        padding-top: 5px;
+    }
+
+    #game-container > div.text-center.text-glow.my-3 {
+        margin: 0 !important;
+    }
+
+
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+        font-size: 11px!important;
+    }
+
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 12px;
+        top: 35px;
+        z-index: 9;
+
+    }
+
+    #game-container > div.text-right {
+        height: 54px;
+        position: relative;
+        top: -15px;
+        width: 95%;
+    }
+
+    #game-container > div.form-row.justify-content-center.mt-2 > div > div > button{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    .game-slots-container {
+        margin: 5px auto;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px!important;
+        margin-left: 0px!important;
+    }
+    #game-container > div:nth-child(7) {
+        width: 100% !important;
+        display: block;
+    }
+    .custom-control {
+        width: 55%;
+        margin: 0 auto !important;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .crypto_slots_logo {
+        top: 70px;
+        left: -10px;
+        right: 0;
+        margin: 0 auto;
+        width: 138px;
+    }
+    .game-slots-container .line-btns {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: fit-content;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .custom-switch {
+        padding-left: 0.25rem!important;
+    }
+
+    #game-container > div.text-center.text-glow.my-3 {
+        margin-bottom: 0;
+    }
+
+    .game-american-roulette-container {
+        margin-bottom: 80px !important;
+        justify-content: space-between;
+        margin-top: 64px !important;
+        padding-top: 5px;
+    }
+
+    .game-american-roulette-container .roulette .roulette-source {
+        left: 50%;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: 14px;
+    }
+    #game-container > div:nth-child(7) {
+        width: 100% !important;
+        display: block;
+    }
+    .custom-control {
+        width: 47%;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 366px) {
+    .crypto_slots_logo {
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 162px;
+    }
+
+    .game-american-roulette-container .roulette .roulette-source {
+        left: 45%;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: -4px;
+    }
+
+
+
+    .game-american-roulette-container .roulette .roulette-source {
+        left: 50%;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: 14px;
+    }
+    label {
+        position: relative;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0 0.25em 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .game-slots-container .line-btns {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .crypto_slots_logo {
+        top: 68px;
+        left: -17px;
+        right: 0;
+        margin: 0 auto;
+        width: 143px;
+    }
+    #game-container > div.text-right {
+        height: 54px;
+        position: relative;
+        top: -15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+
+
+    #game-container > div.text-center.text-glow.my-3 {
+        margin-bottom: 0;
+    }
+
+    .game-american-roulette-container {
+        margin-bottom: 80px !important;
+        justify-content: space-between;
+        margin-top: 0px !important;
+    }
+
+
+    .games-multi-slots-show .roulette .roulette-source {
+        left: 45%;
+    }
+
+    img.position-absolute.roulette_oval {
+        left: -4px;
+    }
+    #game-container > div:nth-child(7) {
+        width: 100% !important;
+        display: block;
+    }
+    .custom-control {
+        width: 44%;
+        margin: 0 auto !important;
+    }
+}
+
+#game-container > div:nth-child(6) > div > button {
+    background: linear-gradient(180deg, #22A06A 0%, #15915C 100%) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128) !important;
+    border-radius: 6px !important;
+    color: #ffffff !important;
+}
+
+#content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#blackjack > div.mt-2 {
+    display: none;
+}
+
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(1),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(2),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(4),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(5),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(6),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(9),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(10),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(3),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(4),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(5),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(6),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(10)
+
+{
+    background: linear-gradient(179.99deg, #FDE486 0.34%, #F6BB2F 99.78%);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.300508), inset 0px 1px 9px #FFFDF5;
+    border-radius: 5px;
+    color: #3C332F;
+}
+
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(7),
+#game-container > div.game-slots-container > div.line-btns.left > button:nth-child(3),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(8),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(1),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(7),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(8),
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(9)
+
+{
+    background: linear-gradient(179.99deg, #F0EAD7 0.34%, #CCC6B6 99.78%);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.300508), inset 0px 1px 9px #FFFDF5;
+    border-radius: 5px;
+    color: #3C332F;
+}
+
+#game-container > div.game-slots-container > div.line-btns.right > button:nth-child(3){
+    background: linear-gradient(179.99deg, #47C54A 0.34%, #20850F 99.78%);
+    box-shadow: 3px 3px 3px rgba(25, 26, 30, 0.300508), inset 0px 1px 9px #53FF6D;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+label::before {
+    clip-path: unset !important;
+}
+
+#content > div:nth-child(1){
+    height: 10px;
+}
+
+#provably-fair-form > div.form-row {
+    display: block !important;
+}
+
+#provably-fair-form > div > div {
+    max-width: 100% !important;
+}
+
+#blackjack > div.mt-2 {
+    display: none !important;
+}
+
+#content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#content > div:nth-child(1) > div > div {
+    margin-bottom: 0 !important;
+}
+
+div.text-center.text-glow.my-3{
+    margin-top: -40px!important;
+    margin-bottom: 0!important;
+}
+#custom_text{
+    margin-top: -16px!important;
+}

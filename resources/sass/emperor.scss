@@ -1,0 +1,13 @@
+@import 'includes/variables';
+@import 'includes/emperor/variables';
+@import 'includes/style';
+
+.game-page #content {
+    background: $theme-color-secondary;
+    background: linear-gradient(
+            180deg,
+            darken($theme-color-secondary, 2%) 0%,
+            lighten($theme-color-secondary, 5%) 50%,
+            lighten($theme-color-secondary, 10%) 100%
+    );
+}

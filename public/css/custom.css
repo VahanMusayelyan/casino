@@ -1,0 +1,40 @@
+.jackpot img{
+    width: 250px;
+}
+
+div.header__content > div:nth-child(3) > div > span:nth-child(3) > span.amount{
+    font-size: 24px;
+}
+
+#leaderboard_wrapper{
+    position: relative;
+}
+
+#leaderboard > caption{
+    position: absolute;
+    top: -67px;
+    left: 36%;
+    text-align: center;
+}
+
+#leaderboard_wrapper{
+    padding-top: 100px;
+}
+
+.bordered_block img{
+    margin:5px 10px!important;
+}
+
+.bordered_block{
+    /*border: 1px dashed #D1D1D1;*/
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#desktop_table > div:nth-child(3) > table > tbody > tr > td{
+    display: table-cell;
+}
+
+.rc-anchor-light.rc-anchor-normal {
+    border: 2px solid #d3d3d3!important;
+}

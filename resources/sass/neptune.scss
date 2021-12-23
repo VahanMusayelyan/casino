@@ -1,0 +1,13 @@
+@import 'includes/variables';
+@import 'includes/neptune/variables';
+@import 'includes/style';
+
+.game-page #content {
+    background: $theme-color-secondary;
+    background: linear-gradient(
+            180deg,
+            lighten($theme-color-primary, 2%) 0%,
+            lighten($theme-color-secondary, 4%) 50%,
+            lighten($theme-color-secondary, 8%) 100%
+    );
+}

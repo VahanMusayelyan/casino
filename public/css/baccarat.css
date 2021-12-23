@@ -1,0 +1,366 @@
+.baccarat_logo{
+    top: 150px!important;
+}
+.games-baccarat-show {
+    position: relative;
+    background-color: unset !important;
+    background-image: url("/public/images/games/slots/slots_blue_background.svg");
+    background-size: cover;
+}
+
+#content {
+    background-color: transparent !important;
+}
+
+#game-container {
+    background: transparent;
+
+}
+
+[data-balloon] {
+    color: white;
+}
+
+button.btn.btn-sm.btn-primary.float-right.mt-2 {
+    background: linear-gradient(180deg, #63279B 0%, #4F0197 100%);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.27128);
+    border-radius: 4.8px;
+}
+
+img.position-absolute.baccarat_logo_cont {
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+
+.actions_block.d-inline-block {
+    position: absolute;
+    z-index: 10;
+    right: 35px;
+    top: 100px;
+}
+
+.game-baccarat-container {
+    margin-bottom: 150px;
+}
+
+.text-center.text-glow.my-3 {
+    margin-top: 50px !important;
+    margin-bottom: 38px !important;
+}
+
+div#provably-fair-form {
+    position: absolute;
+    width: 100%;
+    top: 125px;
+}
+
+.gcard-img:not(.front) {
+    content: url("/public/images/games/baccarat/cards.svg");
+
+}
+
+/* .bc-card:after,#game-container .baccarat-container .deck:after{
+    content: url(/public/images/games/baccarat/shadow.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+} */
+.bc-card:after, #game-container .baccarat-container .deck:after {
+    background-image: url(/public/images/games/baccarat/shadow.svg);
+    width: 335px;
+    height: 400px;
+    position: absolute;
+    left: -10px;
+    z-index: -1;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (max-width: 1200px) {
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 270px;
+
+    }
+
+}
+
+#game-container > div.text-right {
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 992px) {
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 235px;
+
+    }
+
+}
+
+
+body.theme-dark-purple .btn-primary {
+    background: linear-gradient(180deg, #7F9922 0%, #4B761F 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128) !important;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #ffff !important;
+
+}
+
+
+#game-container > div:nth-child(7) > div.form-group.col-lg-4.text-center > div > input,
+#game-container > div:nth-child(7) > div.form-group.col-lg-3.text-center > div > input, #game-container .form-group .input-group .input-group-append .btn, #game-container .form-group .input-group .input-group-text {
+    background: linear-gradient(180deg, #182244 0.47%, #192548 100%);
+    box-shadow: 0px 2px 4px #486FB4;
+    border: 0;
+    font-size: 14px;
+}
+
+#game-container .form-group .input-group .input-group-append .btn:hover,
+#game-container > div:nth-child(7) > div.form-group.col-lg-4.text-center > div > input:hover {
+    color: white !important;
+    background: linear-gradient(180deg, #182244 0.47%, #192548 100%);
+    box-shadow: 0px 2px 4px #486FB4;
+    border: 0;
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
+}
+
+#game-container .form-group .input-group .rounded {
+    background: linear-gradient(
+            180deg, #FFD200 0%, #FF9500 100%) !important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%) !important;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #000000 !important;
+    background-color: #D2BF64 !important;
+    border-color: #D2BF64 !important;
+}
+
+
+#game-container .baccarat-container .boss-caption, #game-container .baccarat-container .player-caption {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.160891px;
+
+    color: #FFFFFF;
+}
+
+img.position-absolute.baccarat_logo {
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+div#provably-fair-form {
+    position: absolute;
+    width: 100%;
+    top: 125px;
+}
+
+#game-container > div:nth-child(6) > div {
+    z-index: 10;
+}
+
+#game-container > div.form-row.justify-content-center.mt-2 > div {
+    z-index: 10;
+}
+
+
+.form-row.justify-content-center {
+    position: relative;
+    z-index: 1039;
+}
+
+#game-container .baccarat-container .bc-card.show::after {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    #game-container .baccarat-container .deck:after {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 190px;
+
+    }
+
+    .form-row.justify-content-center {
+        position: relative;
+        z-index: 10;
+    }
+	    img.position-absolute.baccarat_logo {
+        width: 105px;
+        top: 85px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 155px;
+
+    }
+	    img.position-absolute.baccarat_logo {
+        width: 105px;
+            top: 72px;
+    }
+    [data-balloon][data-balloon-pos=down]:after, [data-balloon][data-balloon-pos=down]:before{
+        left: 0!important;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+
+    .baccarat_logo{
+        top: 67px!important;
+    }
+}
+
+@media (max-width: 425px) {
+    img.position-absolute.baccarat_logo {
+        width: 150px;
+    }
+
+    #game-container {
+        padding: 0 !important;
+    }
+
+    .actions_block.d-inline-block {
+        right: 5px;
+    }
+
+    #game-container .baccarat-container {
+        margin-top: 0;
+    }
+
+    .text-center.text-glow.my-3 {
+        margin-top: 60px !important;
+        margin-bottom: 8px !important;
+    }
+    .text-center.text-glow.my-3 {
+        margin-bottom: 8px!important;
+    }
+
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 125px;
+
+    }
+
+    #provably-fair-form .input-group-text, #provably-fair-form .form-control {
+        font-size: 12px;
+    }
+
+    div#provably-fair-form {
+        top: 100px;
+    }
+    .actions_block.d-inline-block {
+        right: -9px;
+        top: 34px;
+    }
+    #game-container > div.text-right {
+        position: relative;
+        z-index: 10;
+        top: 0px;
+    }
+    .actions_block.d-inline-block {
+        z-index: 10;
+    }
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+        font-size: 12px;
+    }
+    .form-group {
+        margin-bottom: 8px;
+    }
+    #game-container > div:nth-child(6) > div {
+       margin-bottom: 8px;
+    }
+    #content > div:nth-child(1){
+        height: 0!important;
+    }
+}
+@media (max-width: 365px) {
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 0;
+    }
+}
+@media (max-width: 376px) {
+
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 125px;
+
+    }
+}
+
+@media (max-width: 365px) {
+
+    .bc-card:after, #game-container .baccarat-container .deck:after {
+        width: 125px;
+
+    }
+}
+
+div#provably-fair-form{
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+
+#info-modal{
+    z-index: 10000000000000;
+}
+
+
+#provably-fair-form > div.form-row {
+    display: block !important;
+}
+
+#provably-fair-form > div > div {
+    max-width: 100% !important;
+}
+
+#blackjack > div.mt-2 {
+    display: none !important;
+}
+
+#content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#content > div:nth-child(1) > div > div {
+    margin-bottom: 0 !important;
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+

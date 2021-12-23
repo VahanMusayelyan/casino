@@ -1,0 +1,13 @@
+@import 'includes/variables';
+@import 'includes/light-blue/variables';
+@import 'includes/style';
+
+.game-page #content {
+    background: $theme-color-info;
+    background: linear-gradient(
+        180deg,
+        lighten($theme-color-primary, 30%) 0%,
+        lighten($theme-color-primary, 10%) 50%,
+        darken($theme-color-primary, 15%) 100%
+    );
+}

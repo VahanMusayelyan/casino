@@ -1,0 +1,8 @@
+@import 'includes/variables';
+@import 'includes/dark-purple/variables';
+@import 'includes/style';
+
+.game-page #content {
+    background: rgb(28, 0, 54);
+    background: linear-gradient(180deg, rgba(28, 0, 54, 1) 0%, rgba(46, 0, 87, 1) 50%, rgba(66, 0, 125, 1) 100%);
+}

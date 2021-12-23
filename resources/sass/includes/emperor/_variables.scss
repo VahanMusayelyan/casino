@@ -1,0 +1,114 @@
+$theme-color-primary: #525252;
+$theme-color-secondary: #414141;
+$theme-color-info: #ca3e47;
+
+$theme-colors: (
+  'primary': $theme-color-primary,
+  'secondary': $theme-color-secondary,
+  'info': $theme-color-info
+);
+
+// balloon-css background (node_modules/balloon-css/src/balloon.scss)
+$balloon-bg: $theme-color-primary;
+
+// Body & text
+$body-bg: #313131;
+$body-color: #e9ecef;
+$text-muted: #adb5bd;
+// border
+$border-color: $theme-color-primary;
+// links
+$link-color: $theme-color-info;
+$link-hover-color: darken($link-color, 7.5%);
+// tabs
+$nav-tabs-link-active-color: $body-color;
+$nav-tabs-link-active-bg: $theme-color-primary;
+// card
+$card-bg: transparent;
+// list
+$list-group-bg: transparent;
+$list-group-border-color: rgba(#fff, .125);
+// form
+$input-bg: transparent;
+$input-border-color: $body-color;
+$input-color: $body-color;
+$input-focus-color: $body-color;
+$input-group-addon-bg: transparent;
+$input-disabled-bg: transparent;
+// modal
+$modal-content-bg: $theme-color-secondary;
+$modal-content-color: $body-color;
+// select
+$custom-select-bg: $theme-color-secondary;
+// pagination
+$pagination-bg: none;
+$pagination-color: $text-muted;
+$pagination-active-color: $theme-color-info;
+$pagination-border-color: $theme-color-primary;
+$pagination-hover-bg: $theme-color-primary;
+$pagination-hover-color: $theme-color-info;
+$pagination-hover-border-color: none;
+$pagination-disabled-bg: none;
+$pagination-disabled-color: $theme-color-primary;
+$pagination-disabled-border-color: $theme-color-primary;
+// dropdown
+$dropdown-bg: $theme-color-primary;
+$dropdown-border-color: $body-color;
+$dropdown-divider-bg: $body-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-bg: $theme-color-secondary;
+$dropdown-link-hover-color: $theme-color-info;
+// switch
+$custom-control-indicator-border-color: $theme-color-primary;
+$custom-control-indicator-bg: $theme-color-info;
+// shadow
+$box-shadow-sm: 0 0 1rem 0 rgba($theme-color-primary, .8);
+$box-shadow: 0 0 2rem 0.2rem rgba($theme-color-primary, .8);
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Dark purple theme bootstrap overrides
+body.theme-emperor {
+  .btn-primary {
+    @include button-variant(
+      $theme-color-primary, //$background
+      $theme-color-primary, // $border
+      lighten($theme-color-primary, 7.5%), // $hover-background
+      lighten($theme-color-primary, 10%), // $hover-border
+      lighten($theme-color-primary, 10%), // $active-background
+      lighten($theme-color-primary, 12.5%) // $active-border
+    );
+  }
+
+  .text-primary {
+    color: lighten($theme-color-primary, 10%) !important;
+  }
+
+  .border-primary {
+    border-color: lighten($theme-color-primary, 10%) !important;
+  }
+
+    .btn-primary {
+        color: $body-color;
+        &:hover {
+            color: $body-bg;
+        }
+    }
+
+    .btn-outline-info {
+        background: $theme-color-info;
+        color: $body-color;
+    }
+
+    .badge-primary {
+        color: $body-color;
+    }
+
+  .custom-switch {
+    .custom-control-label {
+      color: gray('200');
+    }
+  }
+}

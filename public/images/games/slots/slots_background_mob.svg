@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 813 659" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter0_d" x="0.399902" y="0" width="812" height="658.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dx="32" dy="32"/>
+      <feGaussianBlur stdDeviation="40"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="51.3082" y1="52.4462" x2="51.3082" y2="546.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111A2F"/>
+      <stop offset="0.4804" stop-color="#B6BACD"/>
+      <stop offset="1" stop-color="#131B30"/>
+    </linearGradient>
+  </defs>
+  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="48" y="48" width="653" height="499">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M55.621 61.4672C56.0423 53.8725 62.3271 48 69.9334 48H676.679C684.198 48 690.442 53.7737 690.971 61.2738C693.555 97.9193 700.4 204.326 700.4 303.044C700.4 400.86 693.679 498.672 691.043 533.277C690.475 540.733 684.256 546.4 676.778 546.4H69.8076C62.253 546.4 55.9972 540.628 55.5281 533.088C53.4544 499.759 48.3999 408.02 48.3999 305.631C48.3999 201.677 53.6101 97.7203 55.621 61.4672Z" fill="white"/>
+  </mask>
+  <g filter="url(#filter0_d)" style="" transform="matrix(1, 0, 0, 0.773286, 0, 10.882247)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M55.621 61.4672C56.0423 53.8725 62.3271 48 69.9334 48H676.679C684.198 48 690.442 53.7737 690.971 61.2738C693.555 97.9193 700.4 204.326 700.4 303.044C700.4 400.86 693.679 498.672 691.043 533.277C690.475 540.733 684.256 546.4 676.778 546.4H69.8076C62.253 546.4 55.9972 540.628 55.5281 533.088C53.4544 499.759 48.3999 408.02 48.3999 305.631C48.3999 201.677 53.6101 97.7203 55.621 61.4672Z" fill="url(#paint0_linear)"/>
+  </g>
+  <g mask="url(#mask0)"/>
+</svg>

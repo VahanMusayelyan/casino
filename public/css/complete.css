@@ -1,0 +1,164 @@
+.container {
+
+    min-height: 71.8vh;
+}
+
+#content, select {
+    background: transparent !important;
+}
+
+.deposit, .deposit:focus, .deposit:active {
+    background-color: #538c31 !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.amount inp_amount {
+    border: 1px solid red;
+}
+
+.copy-button {
+    display: inline-block;
+    border: none;
+    outline: 0;
+    height: 60px;
+    width: 196px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    background-color: #538c31;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.amount_btc {
+    padding: 20px 15px;
+    background-color: #2a2a2a;
+
+}
+
+.content .deposit-complete form input {
+
+    width: 350px;
+
+}
+
+.qr_code, .qr_code:focus, .qr_code:active {
+    background-color: #538c31 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.qr-code {
+    background-color: transparent;
+}
+
+.modal-dialog {
+    max-width: 340px;
+    margin: 1.75rem auto;
+}
+
+label {
+    font-size: 20px;
+    color: #fff;
+    opacity: .5;
+}
+
+#content > div:nth-child(2) > div > div.content > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > div > div > div.input-group-append > button {
+    display: inline-block;
+    border: none;
+    outline: 0;
+    height: 60px;
+    width: 196px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    background-color: #538c31;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#content > div:nth-child(2) > div > div.content > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > div > div > input {
+    padding: 16px 24px;
+    border-radius: 0;
+    background-color: #2a2a2a;
+    font-family: Montserrat;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.input-group-text {
+    border: none;
+    background-color: #2a2a2a;
+}
+#content > div:nth-child(2) > div > div.content > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > div > div > input{
+    padding: 16px 24px;
+    width: 441px;
+    border-radius: 0;
+    background-color: #2a2a2a;
+    font-family: Montserrat;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 29px;
+    text-align: left;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#content > div:nth-child(2) > div > div.content > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > div > div > div > button:nth-child(1){
+    background-color: #538c31 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: .25rem;
+}
+
+#content > div:nth-child(2) > div > div.content > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > div > div > div > button:nth-child(2){
+    border: none;
+    outline: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    background-color: #538c31;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.payment-history-block{
+    display: none;
+}
+
+.content{
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .content .deposit-complete form div input {
+        padding: 15px 7px !important;
+        margin-right: 5px !important;
+    }
+
+    .amount_btc {
+        padding: 19px 7px !important;
+        margin-right: 5px !important;
+    }
+}

@@ -1,0 +1,1001 @@
+#blackjack{
+    max-width: 100%!important;
+    padding: 0;
+    min-height: unset;
+}
+
+
+.logo_block{
+    width: 59%;
+}
+
+.logo_block img{
+    float: right;
+}
+
+#content{
+    position: relative;
+    background-color: unset!important;
+    background-image: url("/assets/img/games/wheel/background.png");
+    background-size: cover;
+}
+
+#content{
+    min-height: 1400px;
+}
+
+#game-container{
+    background-image: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+.actions_block{
+    width: 29%;
+    position: relative;
+}
+
+#game-container > div.text-right {
+    position: absolute;
+    right: 230px;
+    top: -219px;
+    z-index: 999;
+}
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+#content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+    margin-right: 55px;
+}
+
+
+.text-right i{
+    color: #FFFFFF;
+}
+
+#content > div:nth-child(1){
+    height: 150px;
+    padding-top: 10px;
+}
+
+#content > div:nth-child(1) > div > div{
+    height: 100%;
+}
+
+#content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+#content > div:nth-child(1) > div > div > div{
+    height: 100%;
+}
+
+
+#game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center label,
+#game-container > div:nth-child(6) > div.form-group.col-lg-2.text-center label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div input,
+#game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > div button,
+#game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > div button:hover{
+    background: linear-gradient(180deg, #182244 0.47%, #192548 100%);
+    box-shadow: 0px 2px 4px #486FB4;
+    border-radius: 6px;
+    margin-right: 2px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#game-container > div:nth-child(6) > div.form-group.col-lg-2.text-center > div{
+    background: linear-gradient(180deg, #FFD200 0%, #FF9500 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+}
+#game-container > div:nth-child(6) > div.form-group.col-lg-2.text-center > div input{
+    color: #000000;
+    font-weight: bold;
+    border: none;
+}
+
+#game-container > div:nth-child(6){
+    width: 65%;
+    margin: 0 auto;
+}
+
+#game-container .wheel svg {
+    width: 70%;
+    height: auto;
+    margin-left: 55px;
+    margin-left: 95px;
+    margin-top: -90px;
+}
+
+#game-container .wheel svg .outer-pin,#game-container .wheel svg .segment-pin{
+    fill:#FEFFB3!important;
+    -webkit-box-shadow: 0px 0px 49px 10px #000000;
+    box-shadow: 0px 0px 49px 10px #000000;
+    width :11px;
+    height :11px;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(4) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(6) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(8) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(10) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(12) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(14) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(16) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(18) circle,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(20) circle
+{
+    fill: #FEFFB3!important;
+    filter:unset;
+    filter: blur(4px);
+    r:36!important;
+}
+#content > div:nth-child(1) > div > div > div.logo_block.d-inline-block > img{
+    margin-top: 18px!important;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg circle.segment-pin{
+    filter: blur(4px);
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(39) > path,
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(39) > circle.stopper-pin{
+    fill:#F44173;
+}
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(40) > circle.stopper-pin-inner{
+    fill:#E8EBF3;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(7),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(9),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(11),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(13),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(15),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(17),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(19),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(21),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(23),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(25),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(5){
+    display: none;
+}
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(23),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(21),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(22),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(24),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(25),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(26),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(27),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(28),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(29),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(30),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(31),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(32),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(33),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(34),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(35),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(36),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(37),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(38),
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > g:nth-child(39)
+{
+    display: none;
+}
+
+#game-container .wheel svg .stopper-body,
+#game-container .wheel svg .stopper-pin {
+    fill: #F44173;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(2) > g > text{
+    font-weight: bold;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(2) > circle.circle-inner{
+    stroke:#ffffff;
+    r:100;
+    stroke-width:50;
+}
+#game-container .wheel svg .circle-inner{
+    fill:#ffffff;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(2) > circle.circle-inner-2{
+    fill:#4D4F52;
+}
+
+
+
+
+
+#game-container > div.form-row.justify-content-center.mt-2 > div > button{
+    background: linear-gradient(180deg, #7F9922 0%, #4B761F 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div > object > svg > g:nth-child(3) > circle{
+    stroke: #182344;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.oval_big{
+    position: absolute;
+}
+
+
+.wheel,#game-container > div.row.justify-content-center.mb-4{
+    position: relative;
+}
+
+.wheel_star{
+    position: absolute;
+}
+
+
+.left_bottom_sh{
+    bottom: 3%;
+    left: 42%;
+    z-index: 0;
+}
+.left_top{
+    top: -32%;
+    left: 34%;
+    z-index: 0;
+}
+
+.left_top_sh{
+    top: -29%;
+    left: 35%;
+    z-index: 0;
+}
+
+.right_bottom{
+    bottom: -11%;
+    right: 36.5%;
+    z-index: 0;
+}
+
+.right_bottom_sh{
+    bottom: -4%;
+    right: 37.8%;
+    z-index: 0;
+
+}
+.right_top{
+    top: -50%;
+    right: 39%;
+    z-index: 0;
+}
+
+.right_top_sh{
+    top: -42%;
+    right: 39.8%;
+    z-index: 0;
+
+}
+
+#game-container > div.row.justify-content-center.mb-4 {
+    margin-bottom: 15px!important;
+}
+
+#content > div:nth-child(2){
+    height: 220px;
+}
+
+#content > div:nth-child(2) > div > div > div.actions_block.d-inline-block > button{
+    margin-right: 56px;
+}
+
+.wheel_back{
+    position: absolute;
+    z-index: -1;
+    width: 99.9%;
+    height: 1400px;
+    margin-left: -15px;
+}
+
+.custom-switch .custom-control-label:after{
+    background-color: #ffffff!important;
+}
+.custom-control-label:before{
+    background: linear-gradient(180deg, #182244 0.47%, #192548 100%);
+    box-shadow: 0px 2px 4px #486FB4;
+    border-radius: 8px;
+}
+
+.custom-switch .custom-control-label:before{
+    background-color: #0079bb;
+}
+
+#game-container > div:nth-child(8) input{
+    background: linear-gradient(
+            180deg
+            , #182244 0.47%, #192548 100%);
+    box-shadow: 0px 2px 4px #486fb4;
+    border-radius: 6px;
+
+
+}
+
+#game-container div:nth-child(8) div:nth-child(1) div label,
+#game-container div:nth-child(8) div:nth-child(2) div label,
+#game-container div:nth-child(8) div:nth-child(3) div label{
+    font-family: Montserrat!important;
+    font-style: normal!important;
+    font-weight: bold!important;
+    font-size: 14px!important;
+    line-height: 20px!important;
+}
+
+#game-container > div:nth-child(8) button,
+#game-container > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div > div button,
+#game-container > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div > div button
+{
+    background: linear-gradient(180deg, #FFD200 0%, #FF9500 100%) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128) !important;
+    border-radius: 6px;
+    color: #000000!important;
+    margin-right: 5px;
+}
+
+#content > div:nth-child(1){
+    margin-bottom: 100px;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div.col-lg-4.col-md-7.wheel{
+    z-index: 1;
+}
+
+label::before{
+    clip-path: unset;
+}
+
+.actions_block.d-inline-block{
+    z-index: 100000;
+}
+div#provably-fair-form {
+    position: absolute;
+    width: 83%;
+    top: -102px;
+}
+
+.left_bottom {
+    /* bottom: 0; */
+    left: 27px;
+    z-index: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -127px;
+    width: 27%;
+}
+
+.logo_block img {
+    float: right;
+    width: 25%;
+}
+.actions_block.d-inline-block {
+    position: absolute;
+    z-index: 998;
+    right: 190px;
+    top: 5px;
+}
+@media(max-width: 2561px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: -96px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -161px;
+        width: 28%;
+    }
+}
+
+@media(max-width: 2100px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: -30px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -137px;
+        width: 27%;
+    }
+}
+@media(max-width: 1920px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: -3px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -137px;
+        width: 26%;
+    }
+}
+
+@media(max-width: 1730px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: 10px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -137px;
+        width: 27%;
+    }
+}
+
+
+@media(max-width: 1500px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: 20px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -135px;
+        width: 28%;
+    }
+}
+
+@media(max-width: 1441px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: 27px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -135px;
+        width: 28%;
+    }
+    .logo_block img {
+        float: right;
+        width: 30%;
+    }
+}
+@media(max-width: 1345px) {
+
+    .left_bottom {
+        /* bottom: 0; */
+        left: 42px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -132px;
+        width: 28%;
+    }
+}
+@media(max-width: 1300px) {
+
+    .left_bottom {
+        /* bottom: 0; */
+        left: 46px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -131px;
+        width: 28%;
+    }
+}
+
+@media (max-width: 1237px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: 46px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -126px;
+        width: 27%;
+    }
+}
+
+@media (max-width: 1205px){
+    .left_bottom {
+        /* bottom: 0; */
+        left: 56px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -120px;
+        width: 26%;
+    } }
+
+
+@media (max-width: 1110px) {
+    .left_bottom {
+        /* bottom: 0; */
+        left: 63px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -118px;
+        width: 26%;
+    }
+
+}
+
+@media (max-width: 1040px) {
+    .left_bottom {
+        /* bottom: 0; */
+        left: -10px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -116px;
+        width: 26%;
+    }
+
+    #game-container > div.text-right {
+        position: absolute;
+        right: 17%;
+        top: -50%;
+    }
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button {
+        margin-right: 0;
+    }
+    #game-container .wheel svg {
+        width: 70%;
+        height: auto;
+        margin-left: 55px;
+        margin-left: 50px;
+        margin-top: -90px;
+    }
+}
+@media (max-width: 993px) {
+        .left_bottom {
+            /* bottom: 0; */
+            left: 14px;
+            z-index: 0;
+            right: 0;
+            margin: 0 auto;
+            top: -132px;
+            width: 48%;
+        }
+        #game-container > div.text-right {
+    position: absolute;
+    right: 17%;
+    top: -230px;
+}
+.actions_block.d-inline-block {
+    position: absolute;
+    z-index: 9999999;
+    right: 183px;
+    top: -30px;
+}
+}
+
+@media (max-width: 790px) {
+    .left_bottom {
+        /* bottom: 0; */
+        left: -42px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -128px;
+        width: 48%;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 9999999;
+        right: 140px;
+        top: -30px;
+    }
+    .text-center.text-glow.my-3 {
+        position: absolute;
+        top: -155px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    #game-container > div.row.justify-content-center.mb-4 {
+        margin-bottom: 2.5rem !important
+    }
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 94% !important;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        top: -12px;
+        width: 112px;
+    }
+    #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > input{
+        margin-bottom: 8px!important;
+    }
+}
+
+@media (max-width: 767px) {
+
+.left_bottom {
+    /* bottom: 0; */
+    left: -63px;
+    z-index: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -145px;
+    width: 80%;
+}
+}
+
+@media (max-width: 700px) {
+
+    .left_bottom {
+        /* bottom: 0; */
+        left: -45px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -145px;
+        width: 80%;
+    }
+}
+@media (max-width: 660px) {
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 999;
+        right: 15px;
+        top: -30px;
+    }
+    #game-container > div.text-right {
+        position: absolute;
+        right: 0;
+        top: -230px;
+    }
+    .left_bottom {
+        /* bottom: 0; */
+        left: -35px;
+    z-index: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -141px;
+    width: 80%;
+    }
+    }
+@media (max-width: 575px) {
+    .logo_block img {
+        float: right;
+        width: 35%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+.left_bottom {
+    /* bottom: 0; */
+    left: -8px;
+    z-index: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -128px;
+    width: 80%;
+}
+.text-center.text-glow.my-3 {
+    position: absolute;
+    top: -150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+}
+
+@media (max-width: 530px) {
+
+.left_bottom {
+    /* bottom: 0; */
+    left: 8px;
+    z-index: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -128px;
+    width: 80%;
+    margin: 0 auto;
+}
+	.p-3 {
+    padding: 0 1rem!important;
+    padding-top: 0px !important;
+    padding-right: 1rem !important;
+    padding-bottom: 0px !important;
+    padding-left: 1rem !important;
+}
+	.form-group {
+    margin-bottom: 7px;
+}
+	#game-container{
+	padding-top:0!important;
+		padding-bottom:0!important;
+}
+	#game-container > div:nth-child(8) > div:nth-child(4) > div > button.btn.btn-primary{
+	margin-top:7px;
+	}
+#game-container > div.form-row.justify-content-center.mt-2{
+	margin-top: -0.5rem!important;
+	}
+}
+
+@media (max-width: 491px) {
+
+    .left_bottom {
+        /* bottom: 0; */
+        left: 30px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -128px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #content > div:nth-child(1) > div > div > div.logo_block.d-inline-block > img {
+        margin-top: 0px !important;
+    }
+
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 999;
+        right: 15px;
+        top: 47px;
+    }
+
+    #content > div:nth-child(1) {
+        margin-bottom: 54px;
+    }
+    #game-container > div.text-right {
+        position: absolute;
+        right: 0;
+        top: -193px;
+    }
+    #content > div:nth-child(1) > div > div > div {
+        height: 27%;
+    }
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+        font-size: 12px!important;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 999;
+        right: -5px;
+        top: 47px;
+    }
+    #game-container > div:nth-child(6) {
+        width: 78%;
+        margin: 0 auto;
+    }
+    #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > input {
+         margin-bottom: 0px!important;
+    }
+    .text-center.text-glow.my-3 {
+        position: absolute;
+        top: -138px;
+        left: 0;
+        right: 0;
+        margin: unset;
+        width: 85%;
+    }
+    #game-container > div.row.justify-content-center.mb-4 {
+        margin-bottom: 10px!important;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > button{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        margin-top: 5px!important;
+    }
+    label {
+        position: relative;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0 0.25em 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .text-center.text-glow.my-3 {
+        position: absolute;
+        top: -159px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    [data-balloon][data-balloon-pos=down]:after, [data-balloon][data-balloon-pos=down]:before{
+        left: 0!important;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+}
+    
+
+    @media (max-width: 440px) {
+
+        .left_bottom {
+            /* bottom: 0; */
+            left: 30px;
+            z-index: 0;
+            right: 0;
+            margin: 0 auto;
+            top: -128px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        }
+        
+        @media (max-width: 430px) {
+            .left_bottom {
+                /* bottom: 0; */
+                left: -18px;
+                z-index: 0;
+                right: 0;
+                margin: 0 auto;
+                top: -128px;
+                width: 80%;
+                margin: 0 auto;
+            }
+            #game-container .wheel svg {
+                width: 70%;
+                height: auto;
+                margin-left: 55px;
+                margin-left: 55px;
+                margin-top: -100px;
+            }
+        }
+
+        @media (max-width: 430px) {
+            .left_bottom {
+                /* bottom: 0; */
+                left: -36px;
+                z-index: 0;
+                right: 0;
+                margin: 0 auto;
+                top: -128px;
+                width: 80%;
+                margin: 0 auto;
+            }
+            #game-container .wheel svg {
+                width: 70%;
+                height: auto;
+                margin-left: 45px;
+                margin-left: 45px;
+                margin-top: -100px;
+            }
+        }
+@media (max-width: 375px) {
+    .left_bottom {
+        /* bottom: 0; */
+        left: -20px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -124px;
+        width: 79%;
+        margin: 0 auto;
+    }
+    #game-container .wheel svg {
+        width: 70%;
+        height: auto;
+        margin-left: 45px;
+        margin-left: 45px;
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .left_bottom {
+        /* bottom: 0; */
+        left: 3px;
+        z-index: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -124px;
+        width: 79%;
+        margin: 0 auto;
+    }
+    #game-container .wheel svg {
+        width: 70%;
+        height: auto;
+        margin-left: 45px;
+        margin-left: 45px;
+        margin-top: -100px;
+    }
+    #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > input {
+        margin-bottom: 9px!important;
+    }
+    #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div input, #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > div button, #game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center > div > div button:hover {
+        width: 43px;
+    }
+    .text-center.text-glow.my-3 {
+        position: absolute;
+        top: -158px;
+        left: -14px;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+.text-center.text-glow.my-3 {
+position: absolute;
+    top:-138px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#game-container > div.row.justify-content-center.mb-4 > div.col-lg-4.col-md-7.wheel > object > svg > g:nth-child(3) > g:nth-child(39) > circle.stopper-pin-inner{
+    fill: #ffffff;
+}
+
+
+div#provably-fair-form {
+    position: absolute;
+    width: 100%;
+    top: -258px;
+}
+
+#provably-fair-form > div{
+    width: 95%;
+
+}
+
+
+#provably-fair-form > div.form-row{
+    display: block!important;
+}
+
+#provably-fair-form > div > div{
+    max-width: 100%!important;
+}
+
+#blackjack > div.mt-2{
+    display: none!important;
+}
+
+#content{
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+#content > div:nth-child(1) > div > div{
+    margin-bottom: 0!important;
+}
+
+#content > div:nth-child(2){
+    padding-top: 0!important;
+}
+
+#paytable > div > div > div{
+
+    width: 92%;
+    margin: 0 auto;
+}

@@ -1,0 +1,1016 @@
+.border {
+    display: block!important;
+    width: 100% !important;
+    height: 45px!important;
+    background-color: #2a2929!important;
+}
+
+#game-container{
+    background: unset;
+    padding-top: 50px;
+}
+
+#content{
+    background: unset!important;
+}
+
+.rectangle {
+    top: -77px;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+}
+
+.path{
+    left: 0;
+    top: -72px;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+}
+
+.ball_logo{
+    top: -205px;
+    left: 0;
+    z-index: 10;
+    right: 0;
+    margin: 0 auto;
+}
+
+#blackjack{
+    max-width: 100%!important;
+    padding: 0;
+
+}
+
+.custom_blackjack{
+    width: 58%;
+    margin: 0 auto;
+}
+
+#blackjack{
+    position: relative;
+    background-color: unset!important;
+    background-image: url("/assets/img/games/ball/blackjack_background.png");
+    background-size: cover;
+}
+
+#card,#card > div{
+    position: relative;
+    z-index: 11;
+}
+
+#card{
+    margin-top: 160px;
+    padding: 0;
+    top: 42px;
+}
+
+#card > div:nth-child(1) > div{
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.174374px;
+    color: #28734F;
+}
+
+#card > div > div{
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.174374px;
+    color: #171717;
+    background-color: #FFFFFF!important;
+    margin: 2px;
+    border: 1px solid #FFFFFF!important;
+    height: 33px!important;
+    border-radius: 2px;
+}
+
+.back{
+    top: -12px;
+    left: 0;
+    z-index: 10;
+    right: 0;
+    margin: 0 auto;
+}
+
+.grey_back {
+    background-color: #D2D2D2;
+    width: 445px;
+    height: 235px;
+    top: -5px;
+    left: 0;
+    z-index: 10!important;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#card > div:nth-child(4) > div:nth-child(3) > span > i{
+    color: #FFC107;
+}
+
+.oval{
+    /* bottom: -90px; */
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    bottom: 0;
+    top: 58px;
+}
+
+.text-info span{
+    font-weight: bold!important;
+    color: black;
+}
+
+#balls > div > div > div .ball{
+    background-color: #ffffff!important;
+}
+
+#balls{
+    margin: 60px 0;
+}
+
+
+#game-container > div:nth-child(7) > div:nth-child(1) > div > input,
+#game-container > div:nth-child(7) > div:nth-child(1) > div > div > button,
+#game-container > div:nth-child(7) > div:nth-child(1) > div button:hover{
+    background: linear-gradient(180deg, #00301D 0.47%, #003B23 100%);
+    box-shadow: 0px 2px 4px #188858;
+    border-radius: 6px;
+    margin-right: 2px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+#game-container > div:nth-child(7) > div.form-group.col-lg-3.text-center > div > input{
+    width: 250px;
+}
+
+#game-container > div:nth-child(7) > div:nth-child(2) > div > input{
+    background: linear-gradient(180deg, #FFD200 0%, #FF9500 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+}
+#game-container > div:nth-child(7) > div:nth-child(2) > div > input{
+    color: #000000;
+    font-weight: bold;
+    border: none;
+}
+
+#game-container > div:nth-child(8) > div > button{
+    background: linear-gradient(
+            180deg
+            , #22A06A 0%, #0B7347 99.51%);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%);
+    border-radius: 6px;
+    border: none;
+}
+
+#game-container > div:nth-child(7) > div:nth-child(1) > label,
+#game-container > div:nth-child(7) > div:nth-child(2) > label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+#game-container > div:nth-child(7) > div.form-group.col-lg-5.text-center{
+    width: 50% !important;
+}
+
+#game-container > div:nth-child(7) > div.form-group.text-center.col-lg-5.d-inline-block{
+    margin-left: 40px;
+}
+
+.btns_inps{
+    width: 69%;
+    display: inline-block;
+}
+
+#game-container > div:nth-child(7) > div:nth-child(2){
+    width: 30%;
+    float: right;
+}
+#game-container > div:nth-child(7) > div:nth-child(1){}
+
+/*.btns{*/
+/*    width: 80% !important;*/
+/*    margin: 0 auto;*/
+/*    display: inline-block!important;*/
+/*}*/
+
+#game-container > div:nth-child(7){
+    width: 54%;
+    margin: 0 auto;
+}
+
+#game-container > div:nth-child(8) > div{
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#balls {
+    margin: 130px 0 20px 0;
+    position: relative;
+    z-index: 10;
+}
+
+#game-container > div:nth-child(7) > div:nth-child(1) > div > div > button{
+    float: right;
+    width: 50%;
+}
+
+#game-container > div.text-right{
+    position: absolute;
+    right: 1%;
+    top: 0;
+    z-index: 10;
+}
+
+#game-container > div.text-right i{
+    color: #ffffff;
+}
+#game-container{
+    position: relative;
+    padding-top: 0px!important;
+}
+#balls > div > div{
+    padding: 0!important;
+}
+
+
+#content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+    background: linear-gradient(180deg, #63279B 0%, #4F0197 100%);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.27128);
+    border-radius: 4.8px;
+
+
+}
+
+.actions_block.d-inline-block {
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 64px;
+}
+
+.actions_block.d-inline-block button{
+    background: #63279B!important;
+    background-color: #63279B!important;
+
+}
+
+#game-container > div.text-right button{
+    margin-left: 5px;
+}
+
+
+#provably-fair-form{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+
+.header__mobile .border{
+    height: 0!important;
+}
+
+
+
+@media (max-width:1025px){
+    #game-container > div:nth-child(7){
+        width: 100%;
+    }
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 15%!important;
+        max-width: 22%!important;
+    }
+    .path {
+        left: -8px;
+        top: -72px;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width:993px){
+    #content{
+        width: 100%;
+    }
+    #card > div > div,#card > div:nth-child(1) > div {
+        line-height: 25px;
+    }
+
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 8.7%!important;
+        flex-grow: 0 !important;
+        flex-shrink: 0 !important;
+        flex-basis: 8.7% !important;
+        max-width: 22%!important;
+    }
+}
+
+@media(max-width:940px){
+    #card > div > div,#card > div:nth-child(1) > div {
+        line-height: 25px;
+    }
+}
+
+@media(max-width:769px){
+    #content{
+        width: 95%;
+    }
+    #card > div > div,#card > div:nth-child(1) > div {
+        line-height: 25px;
+    }
+
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 10%!important;
+        flex-grow: 0 !important;
+        flex-shrink: 0 !important;
+        flex-basis: 10% !important;
+        max-width: 22%!important;
+    }
+}
+
+
+@media(max-width:571px){
+    #card > div:nth-child(1) > div,#card > div > div{
+        height: 27px!important;
+
+        font-size: 14px;
+
+    }
+    .ball_logo {
+        width: 50%;
+        top: -180px;
+        left: 0;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+    }
+    .rectangle {
+        top: -75px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .path{
+        top: -70px;
+        width: 97%;
+        left: 0;
+    }
+    .back {
+        top: -23px;
+        left: 0;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+        width: 83%;
+    }
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 414px;
+        height: 217px;
+        top: -18px;
+        left: 0;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    #card {
+        margin-top: 100px;
+        padding: 0;
+        top: 25px;
+    }
+    #game-container > div:nth-child(8) > div {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #balls {
+        margin: 60px 0 35px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media(max-width:550px){
+    #game-container > div:nth-child(7) {
+        width: 100%;
+        display: grid;
+        justify-content: center!important;
+    }
+    #game-container > div:nth-child(7) > div:nth-child(2) {
+        width: 60%;
+        float: right;
+        margin: 8px auto 0 auto;
+        text-align: center;
+    }
+    .btns_inps {
+        width: 80%;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .actions_block.d-inline-block {
+        top: 35px;
+    }
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 82%;
+        height: 210px;
+        top: -18px;
+        left: 0;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+}
+@media(max-width:518px){
+
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 393px;
+        height: 210px;
+        top: -18px;
+        left: 0;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .input-group-append {
+        margin-left: 0!important;
+    }
+}
+
+
+@media(max-width:491px){
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 12%!important;
+        flex-grow: 0 !important;
+        flex-shrink: 0 !important;
+        flex-basis: 14% !important;
+        max-width: 22%!important;
+    }
+
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 333px;
+        height: 207px;
+        top: -10px;
+        left: 0;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .path {
+        top: -56px;
+        width: 97%;
+        left: 0;
+    }
+    .ball_logo {
+        width: 43%;
+        top: -90px;
+        left: -15px;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+    }
+    .rectangle {
+        top: -60px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    img.position-absolute.back {
+        height: 225px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .input-group-append {
+        margin-left: -1px;
+        justify-content: center;
+        margin-right: 0;
+        margin: 0px auto 0px auto;
+    }
+    .col {
+        max-width: 97% !important;
+    }
+}
+
+
+@media(max-width:430px){
+    .rectangle {
+        top: -50px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .path {
+        top: -48px;
+        width: 106%;
+        left: -13px;
+    }
+    .back {
+        top: -20px;
+
+        width: 93%;
+    }
+}
+
+@media(max-width:420px){
+    .rectangle {
+        top: -40px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .back {
+        top: -20px;
+
+        width: 93%;
+    }
+
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 320px;
+        height: 207px;
+        top: -10px;
+        left: 0;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .path {
+        top: -35px;
+        width: 106%;
+        left: -13px;
+    }
+}
+
+@media(max-width:380px){
+    .rectangle {
+        top: -22px;
+        left: -3px;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 103%;
+    }
+    .path {
+        top: -20px;
+        width: 110%;
+        left: -14px;
+    }
+    .grey_back{
+        width: 280px;
+    }
+    #balls {
+        margin: 120px 0 35px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+
+
+.col-lg-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.33333333%;
+    flex: 0 0 7.7%!important;
+    max-width: 8.33333333%;
+}
+
+@media (max-width: 1205px) {
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 14.7%!important;
+        max-width: 13.333333%!important;
+    }
+}
+
+@media (max-width: 993px) {
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 8.7%!important;
+        max-width: 13.333333%!important;
+    }
+    #content{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    #game-container{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    #game-container {
+        padding-left: 20px!important;
+
+    }
+}
+
+@media (max-width: 769px) {
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 10.7%!important;
+        max-width: 13.333333%!important;
+    }
+}
+
+@media (max-width: 601px) {
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 14.7%!important;
+        max-width: 16.333333%!important;
+    }
+}
+
+@media (max-width: 571px) {
+    .back {
+        top: -23px;
+        left: -1px;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 12.7% !important;
+        max-width: 16.333333% !important;
+    }
+
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 84%;
+        height: 217px;
+        top: -16px;
+        left: 0px;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 14.7% !important;
+        max-width: 16.333333% !important;
+    }
+    img.position-absolute.back {
+        height: 126%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
+
+
+@media(max-width: 485px){
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 84%;
+        height: 209px;
+        top: -16px;
+        left: 0px;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    img.position-absolute.back {
+        height: 120%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .path {
+        top: -56px;
+        width: 101%;
+        left: -4px;
+    }
+    .rectangle {
+        top: -60px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 95%;
+    }
+}
+
+@media(max-width: 450px){
+    .path {
+        top: -42px;
+        width: 101%;
+        left: -4px;
+    }
+    .rectangle {
+        top: -45px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 95%;
+    }
+}
+
+@media(max-width: 428px){
+    .path {
+        top: -30px;
+        width: 101%;
+        left: -4px;
+    }
+    .rectangle {
+        top: -35px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    #card {
+        margin-top: 70px;
+        padding: 0;
+        top: 25px;
+    }
+    #balls {
+        margin: 77px 0 0px 0;
+        position: relative;
+        z-index: 10;
+    }
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+        font-size: 12px!important;
+        padding: 2px 5px!important;
+    }
+    #content > div:nth-child(2) > div{
+        padding: 0!important;
+    }
+    .row {
+        margin-right: 0px!important;
+        margin-left: 0px!important;
+    }
+
+    .col {
+        max-width: 100% !important;
+    }
+    #game-container{
+        width: 91%;
+        margin: 0 auto;
+    }
+    #game-container > div:nth-child(7){
+        margin-top: 0!important;
+    }
+    .btn-play {
+        min-width: 126px!important;
+        padding: 4px 8px!important;
+    }
+    #game-container > div.text-right {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        z-index: 10;
+    }
+}
+
+
+@media(max-width: 400px){
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 13.7% !important;
+        max-width: 16.333333% !important;
+    }
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 84%;
+        height: 200px;
+        top: -8px;
+        left: 0px;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .back {
+        top: -17px;
+        left: -1px;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+        width: 85%;
+    }
+    .rectangle {
+        top: -23px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 97%;
+    }
+
+    .path {
+        top: -20px;
+        width: 102%;
+        left: -6px;
+    }
+}
+
+@media (max-width: 377px) {
+    .path {
+        top: -20px;
+        width: 105%;
+        left: -9px;
+    }
+    .rectangle {
+        top: -23px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .grey_back {
+        background-color: #D2D2D2;
+        width: 90%;
+        height: 200px;
+        top: -8px;
+        left: 0px;
+        z-index: 10!important;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .back {
+        top: -17px;
+        left: -1px;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+        width: 91%;
+    }
+    .col-lg-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 14.7% !important;
+        max-width: 16.333333% !important;
+    }
+    .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+}
+@media (max-width: 321px) {
+    .actions_block.d-inline-block {
+        right: 11px;
+    }
+    #card {
+        margin-top: 58px;
+        padding: 0;
+        top: 25px;
+    }
+    .ball_logo {
+        width: 40%;
+        top: -73px;
+        left: -19px;
+        z-index: 10;
+        right: 0;
+        margin: 0 auto;
+    }
+    #balls {
+        margin: 55px 0 0px 0;
+        position: relative;
+    }
+    #game-container > div.text-right {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        z-index: 10;
+    }
+    #game-container > div.text-right button {
+        margin-left: 0px!important;
+    }
+    #game-container > div.text-right > button{
+        padding: 0!important;
+    }
+}
+
+
+div#provably-fair-form{
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+
+#new_text{
+    margin-bottom: 183px!important;;
+}
+
+#info-modal{
+    z-index: 100000000;
+}
+
+#provably-fair-form > div.form-row{
+    display: block!important;
+}
+
+#provably-fair-form > div > div{
+    max-width: 100%!important;
+}
+
+#blackjack > div.mt-2{
+    display: none!important;
+}
+
+#content{
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+#content > div:nth-child(1) > div > div{
+    margin-bottom: 0!important;
+}
+
+#content > div:nth-child(1) > div > div{
+    height: 0;
+}
+
+#game-container > div.text-center.text-glow.my-3{
+    margin-top:0!important;
+    margin-bottom: 0!important;
+}
+
+#game-container{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+#balls{
+    z-index: 11!important;
+}

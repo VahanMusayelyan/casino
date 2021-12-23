@@ -1,0 +1,976 @@
+.container {
+    min-height: 71.8vh;
+}
+
+.content {
+    padding: 0 !important;
+    min-height: 50vh;
+}
+
+#content {
+    background: transparent !important;
+}
+
+.deposit, .deposit:focus, .deposit:active {
+    background-color: #538c31 !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.amount_credit::placeholder {
+    color: #797979;
+    opacity: 0.5;
+}
+
+.process, .process:hover, .process:focus {
+    width: 97%;
+    padding: 8px 10px;
+    margin-left: 0;
+    background-color: #538c31;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: -.160891px;
+    color: #fff;
+    text-align: center;
+}
+
+.content .payment-deposit-block .deposit-amount form .proceed {
+    height: 90px;
+}
+
+.payment-withdraw-block {
+    display: none;
+}
+
+.payment-history-block {
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: none;
+}
+
+.payment_block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pagination li, .pagination li a, .pagination li a span, .pagination span {
+    background-color: #141414 !important;
+}
+
+.pagination li.active span {
+    color: #FFFFFF;
+    background-color: #538c31 !important;
+
+}
+
+.page-item.disabled .page-link {
+    border: 1px solid #538c31 !important;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.page-link, .page-item.active .page-link {
+    border: 1px solid #538c31;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+select {
+    background: #141414 !important;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.payment-deposit {
+    width: 70%;
+}
+
+.content .payment-deposit-block .deposit-amount form div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: block;
+}
+
+.form-row .form-group {
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(1) > div > input,
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > input {
+    display: inline-block;
+    padding: 16px 24px;
+    border-radius: 0;
+    background-color: #2a2a2a;
+    font-family: Montserrat;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    text-align: left;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(1) > div > div > span,
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > div > select,
+.input-group-text {
+    margin-left: 10px;
+    outline: 0;
+    border: none;
+    height: 51px;
+    width: 91px;
+    background: #141414;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: .22693px;
+    padding: 13px;
+    color: #8e8e8e;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > div > select {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.input-group-append {
+    display: inline-block !important;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div:nth-child(4) > div > div.input-group.is-invalid > select {
+    width: 97%;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > label {
+    display: none;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > form > div:nth-child(4) > div > div.input-group.is-invalid > button {
+    width: 100%;
+    padding: 8px 10px;
+    margin-left: 0;
+    background-color: #538c31;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    height: 46px;
+    border-radius: 0;
+}
+
+.custom-select[name=method], .custom-select[name=method]:focus {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+    padding: 10px;
+    margin: -5px -30px -5px -5px;
+    margin-left: 20px !important;
+    height: 100% !important;
+    color: transparent !important;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    height: 100px;
+    padding: 0 !important;
+    width: 91%;
+    top: -141px;
+    left: 20px;
+    position: absolute;
+}
+
+.custom-select option {
+    background: transparent !important;
+    width: 31.3%;
+    height: 100% !important;
+    display: inline-block;;
+    color: transparent;
+    margin-right: 17px;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 12px;
+
+}
+
+.content .payment-deposit-block .payment-deposit button {
+    height: 100px;
+}
+
+.custom-select option:checked {
+    background: transparent !important;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.btn_actions:focus {
+    border: none;
+    outline: none;
+}
+
+.payment-withdraw-block {
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+}
+
+.btn_actions a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div,
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(1) > div {
+    display: flex;
+    width: 97%;
+    margin: 0 auto 10px auto;
+}
+
+#content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div:nth-child(3) > div:nth-child(2) > div > div > span {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+select[name="method"] {
+    padding: 11px 0 0 0 !important;
+}
+select::-moz-focus-inner{
+    border: none!important;
+    outline: none!important;
+}
+option::-moz-focus-inner{
+    border: none!important;
+    outline: none!important;
+}
+
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+select {
+    background: transparent;
+}
+
+select:-moz-focusring{
+    color: transparent!important;
+    text-shadow: 0 0 0 #000!important;
+}
+
+
+@media (max-width: 550px) {
+    #content > div:nth-child(2) > div{
+        padding: 0!important;
+    }
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div,
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(1) > div {
+        display: inline-block !important;
+    }
+
+    .content .payment-navbar {
+        padding: 11px 0 !important;
+    }
+
+    .btn_actions a {
+        line-height: 20px !important;
+    }
+
+    input {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .input-group-text, select[name=payment_currency] {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+    }
+
+    .deposit-amount input {
+        /*width: 300px !important;*/
+        display: inline-block !important;
+    }
+
+    form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 210px !important;
+    }
+
+    .content .payment-deposit-block .deposit-amount form div select {
+        width: 100% !important;
+    }
+
+    form > div.form-row > div:nth-child(2) > div > div {
+        width: 55px !important;
+    }
+
+    .deposit-amount input {
+        width: 65% !important;
+        display: inline-block !important;
+    }
+
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 178px !important;
+        margin-left: 5px !important;
+        float: left !important;
+    }
+
+    table.table {
+        font-size: 12px !important;
+    }
+
+    .content .payment-deposit-block .deposit-amount form div button {
+        width: 95% !important;
+    }
+
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.payment-deposit {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .content .payment-deposit-block .payment-deposit {
+        gap: 2px;
+    }
+
+    div.payment-deposit button {
+        width: 80px !important;
+        height: 100px !important;
+    }
+
+    .coinText {
+        width: 76%;
+    }
+
+    .metamaskPic, .metamaskBnbPic {
+        width: 100%;
+    }
+
+    .input-group input {
+        padding-left: 5px !important;
+    }
+
+    div.deposit-amount > form > div > form > div.form-row > div:nth-child(2) > div > div > select {
+        margin-left: 0 !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31%;
+        opacity: 0;
+        overflow: hidden;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+        height: 100% !important;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+        height: 100% !important;
+    }
+
+    .custom-select[name=method], .custom-select[name=method]:focus {
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 32% !important;
+    }
+
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        width: 100% !important;
+    }
+
+    .deposit-amount input {
+        width: 65% !important;
+        display: inline-block !important;
+        float: left;
+    }
+
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 68% !important;
+        margin-left: 5px !important;
+        float: left !important;
+    }
+
+    table.table {
+        font-size: 12px !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 32% !important;
+    }
+
+    .payment-deposit-block {
+        padding: 19px 0px !important;
+    }
+
+    .deposit-amount {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        height: 100px;
+    }
+
+    .deposit-amount input {
+        width: 76% !important;
+        display: inline-block !important;
+        float: left;
+    }
+
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 75% !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    div.payment-deposit button {
+        height: 100px !important;
+    }
+
+    .deposit-amount input {
+        width: 76% !important;
+        display: inline-block !important;
+        float: left;
+    }
+
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 75% !important;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div,
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(1) > div {
+        display: inline-block !important;
+    }
+
+    .content .payment-navbar {
+        padding: 11px 0 !important;
+    }
+
+    .btn_actions a {
+        line-height: 20px !important;
+    }
+
+    input {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .input-group-text, select[name=payment_currency] {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+    }
+
+    .deposit-amount input {
+        /*width: 300px !important;*/
+        display: inline-block !important;
+    }
+
+    form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 210px !important;
+    }
+
+    .content .payment-deposit-block .deposit-amount form div select {
+        width: 100% !important;
+    }
+
+    form > div.form-row > div:nth-child(2) > div > div {
+        width: 55px !important;
+    }
+
+    .deposit-amount input {
+        width: 65% !important;
+        display: inline-block !important;
+        float: left;
+    }
+
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 68% !important;
+        margin-left: 5px !important;
+        float: left !important;
+    }
+
+    table.table {
+        font-size: 12px !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 32% !important;
+    }
+
+    .payment-deposit-block {
+        padding: 19px 0px !important;
+    }
+
+    .deposit-amount {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 410px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 68% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-navbar button {
+        height: auto !important;
+    }
+
+    .btn_actions a {
+        line-height: 35px !important;
+    }
+
+    .payment-deposit-block {
+        padding: 19px 0px !important;
+    }
+
+    .payment_block {
+        width: 100% !important;
+    }
+
+    .deposit-amount {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 32% !important;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 73% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 32% !important;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 73% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -130px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 31.3%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 99px !important;
+    }
+
+}
+
+@media (max-width: 368px) {
+    .custom-select option {
+        background: transparent !important;
+        width: 31.1%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .custom-select option {
+        background: transparent !important;
+        width: 31.1%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+}
+
+@media (max-width: 355px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 73% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -115px !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        background: transparent !important;
+        width: 30.9%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 31.1% !important;
+    }
+
+    div.payment-deposit button {
+        height: 85px !important;
+    }
+
+    #content > div:nth-child(2) > div > div > div:nth-child(1) > div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        height: 85px;
+    }
+}
+
+
+@media (max-width: 340px) {
+    div.deposit-amount.position-relative > form > div > form > div.form-row > div:nth-child(2) > div > input {
+        width: 73% !important;
+    }
+
+    .payment-navbar {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div {
+        top: -115px !important;
+        left: -2px !important;
+        width: 100% !important;
+    }
+
+    div.payment-deposit-block > div > div > div.deposit-amount > form > div > div > div > select {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-select option {
+        width: 30.9%;
+        height: 80px;
+        opacity: 0;
+        overflow: visible;
+        font-size: 12px;
+        margin: 0 6px 0 0 !important;
+        line-height: 10px !important;
+        float: left;
+    }
+
+    .custom-select {
+        font-size: 12px !important;
+        margin-left: 0 !important;
+    }
+
+    .input-group-append span {
+        width: auto !important;
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 29px !important;
+        letter-spacing: .22693px;
+        padding: 2px 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .content .payment-deposit-block .payment-deposit button {
+        width: 31.1% !important;
+    }
+}

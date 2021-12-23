@@ -1,0 +1,424 @@
+#game-container,    .custom_blackjack, #content {
+    background-color: transparent!important;
+
+}
+#game-container > div.text-right{
+    height: 40px;
+    position: relative;
+    top: -21px;
+}
+body.games-keno-show.theme-dark-purple {
+background-color: transparent!important;
+background-image: url(/assets/img/games/blackjack/blackjack_background.png);
+}
+#game-container{
+background: transparent;
+}
+
+img.position-absolute.keno_logo_cont {
+    top: 63px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#card{
+    width: 655px;
+    padding: 30px 23px;
+    border: 4px solid white;
+    background-color: #183B24;
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: 81px auto 0 auto;
+}
+.d-flex.flex-wrap{
+    justify-content: center;
+    align-items: center;
+}
+#game-container #card .d-flex>div{
+    background-color: #F9CF3F;
+    border-radius: 6px;
+    color:#171717;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45px;
+    border:none;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 25px;
+}
+[data-balloon]{
+    color: white;
+}
+
+.actions_block.d-inline-block{
+    position: absolute;
+    z-index: 10;
+    right: 34px;
+    top: 58px;
+}
+
+.keno_logo{
+    top: 170px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.text-center.text-glow.my-3{
+    margin-top: -54px!important;
+}
+#game-container > div.text-right > button{
+    margin-left: 5px;
+}
+
+.p-2.text-center.bg-info{
+    background-color: #63C674!important;
+}
+
+#game-container #card .d-flex>div.highlight{
+    background: #488b53!important;
+    color: #63C674!important;
+}
+
+
+
+.p-2.text-center.text-info{
+    color: #63C674!important;
+
+}
+
+.btn-outline-info.disabled, .btn-outline-info:disabled {
+    color: rgb(255, 255, 255)!important;
+    background-color: transparent;
+    border: 0!important;
+    opacity: 1!important;
+}
+
+#game-container > div.form-row.justify-content-center.mt-4 > div > button:nth-child(2),
+#game-container .form-group .input-group .rounded {
+    background: linear-gradient(
+        180deg
+        , #FFD200 0%, #FF9500 100%)!important;
+            box-shadow: 0px 2px 4px rgb(0 0 0 / 27%)!important;
+            border-radius: 6px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            border: none;
+            color: #000000!important;
+            background-color: #D2BF64!important;
+            border-color: #D2BF64!important;
+}
+
+label{
+font-size: 14px;
+}
+
+#game-container > div.form-row.justify-content-center.mt-4 > div > button:nth-child(3),
+body.theme-dark-purple .btn-primary.disabled, body.theme-dark-purple .btn-primary.btn-play{
+    background: linear-gradient(180deg, #22A06A 0%, #0B7347 99.51%);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128)!important;
+border-radius: 6px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            border: none;
+            color: #ffff!important;
+            
+}
+
+#game-container > div:nth-child(7) > div.form-group.col-lg-3.text-center > div > input,#game-container .form-group .input-group .input-group-append .btn, #game-container .form-group .input-group .input-group-text{
+    background: linear-gradient(180deg, #00301D 0.47%, #003B23 100%);
+box-shadow: 0px 2px 4px #188858;
+border: 0;
+font-size: 14px;}
+
+#game-container .form-group .input-group .input-group-append .btn:hover{
+    color: white!important;
+    background: linear-gradient(180deg, #00301D 0.47%, #003B23 100%);
+box-shadow: 0px 2px 4px #188858;
+border: 0;
+font-size: 14px;
+}
+
+div#provably-fair-form{
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+
+
+
+@media(max-width:992px){
+   
+    .container{
+        max-width: 95%!important;
+    }
+}
+
+@media(max-width:850px){
+   
+    #card{
+width: 565px;
+    }
+    #game-container #card .d-flex>div{
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+
+    }
+}
+@media(max-width:768px){
+    
+    .container{
+        max-width: 100%!important;
+    }
+
+    
+    .keno_logo{
+        top: 126px;
+        width: 40%;
+    }
+}
+
+@media(max-width:610px){
+    #card{
+        padding: 16px 10px;
+        width: 445px;
+    }
+    .container{
+        max-width: 100%!important;
+    }
+
+    #game-container #card .d-flex>div{
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        margin: 3px;
+    }
+    .keno_logo{
+        top: 149px;
+        width: 40%;
+    }
+
+    .col,#game-container{
+        padding: 0!important;
+    }
+    #game-container{
+        padding: 0!important;
+    }
+    .actions_block.d-inline-block {
+        right: 0px;
+        top: 47px;
+    }
+}
+
+@media(max-width:465px){
+    #card{
+        padding: 26px;
+        width: 360px;
+        padding: 15px 10px;
+    }
+    .container{
+        max-width: 100%!important;
+    }
+
+    #game-container #card .d-flex>div{
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        margin: 3px;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 10;
+        right: -20px;
+        top: 41px;
+    }
+    .keno_logo{
+        top: 192px;
+        width: 40%;
+    }
+
+    .col,#game-container{
+        padding: 0!important;
+    }
+    #game-container{
+        padding: 0!important;
+    }
+    #game-container > div.text-right{
+        height: 112px;
+        position: relative;
+        top: 50px;
+    }
+
+    .form-row {
+        margin-right: 0!important;
+        margin-left: 0!important;
+    }
+    .col {
+        max-width: 96% !important;
+    }
+    [data-balloon][data-balloon-pos=down]:after, [data-balloon][data-balloon-pos=down]:before{
+        left: 0!important;
+    }
+}
+
+
+
+@media(max-width:450px){
+    .keno_logo{
+        top: 195px;
+        width: 40%;
+    }
+
+}
+
+
+
+@media(max-width:425px){
+    .keno_logo {
+        top: 113px;
+        width: 40%;
+    }
+    #card{
+        margin: 51px auto 0 auto;
+    }
+
+    .text-center.text-glow.my-3 {
+        margin-top: -60px!important
+    }
+
+    .container {
+        max-width: unset!important;
+        margin:0!important;
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    #game-container > div.text-right {
+        width: 100%!important
+    }
+    .btn-group-sm>.btn, .btn-sm {
+
+        font-size: 12px!important;
+    }
+    #game-container > div.text-right {
+        height: 64px;
+        position: relative;
+        top: 4px;
+    }
+    #game-container > div:nth-child(7){
+        width: 100%;
+        margin: 0 auto;
+    }
+    #game-container > div:nth-child(7) > div.form-group.col-lg-3.text-center,
+    #game-container > div:nth-child(7) > div.form-group.col-lg-2.text-center{
+        margin-bottom: 8px!important;
+    }
+    .form-group {
+        margin-bottom: 8px!important;
+    }
+
+    .mt-3, .my-3 {
+        margin-top: 8px!important;
+    }
+    .row {
+        margin-right: 0!important;
+        margin-left: 0!important;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+
+
+}
+
+@media(max-width:400px){
+    #card {
+        padding: 15px 10px;
+        width: 320px;
+    }
+    #game-container #card .d-flex>div {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+        margin: 2px;
+    }
+    #game-container #card .d-flex>div {
+        width: 23px;
+        height: 23px;
+        font-size: 12px;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 375px) {
+    .keno_logo {
+        top: 118px;
+        width: 40%;
+    }
+
+    #card {
+        padding: 15px 5px;
+        width: 296px;
+    }
+
+}
+
+@media(max-width:330px){
+
+    .keno_logo{
+        width: 45%;
+        left: -11px;
+    }
+    #content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button{
+        font-size: 11px!important;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        z-index: 10;
+        right: -25px;
+        top: 41px;
+    }
+
+}
+
+#provably-fair-form > div.form-row{
+    display: block!important;
+}
+
+#provably-fair-form > div > div{
+    max-width: 100%!important;
+}
+
+#blackjack > div.mt-2{
+    display: none!important;
+}
+
+#content{
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+#content > div:nth-child(1) > div > div{
+    margin-bottom: 0!important;
+    height: 0;
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+
+#game-container > div.form-row.justify-content-center.mt-4 {
+    margin-top: 0.5rem!important;
+}

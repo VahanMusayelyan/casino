@@ -1,0 +1,536 @@
+.games-dice-show{
+    position: relative;
+    background-color: unset!important;
+    background-image: url("/images/games/dice/dice_background.svg");
+    background-size: cover;
+}
+.text-center.text-glow.my-3 {
+    margin-top: 20px !important;
+    margin-bottom: 30px!important;
+}
+#content{
+    background-color: transparent!important;
+}
+.text-center.bg-primary.rounded{
+    background-color: #1B1C22!important;
+}
+
+.col-lg-1.text-center.bg-primary {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.33333333%;
+    flex: 0 0 12.333333%;
+    max-width: 13.33333333%;
+}
+#game-container{
+    background: transparent;
+
+}
+[data-balloon]{
+    color: white;
+}
+button.btn.btn-sm.btn-primary.float-right.mt-2{
+    background: linear-gradient(180deg, #63279B 0%, #4F0197 100%);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.27128);
+    border-radius: 4.8px;
+}
+img.position-absolute.dice_logo_cont{
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+.actions_block.d-inline-block{
+    position: absolute;
+    z-index: 100;
+    right: 35px;
+    top: 100px;}
+
+.game-dice-container{
+    margin-bottom: 150px;
+}
+
+.text-center.text-glow.my-3{
+    margin-top: 100px !important;
+    margin-bottom: 90px!important;
+}
+
+div#provably-fair-form{
+    position: absolute;
+    width: 100%;
+    top: 125px;
+}
+
+.gcard-img:not(.front){
+    content: url("/public/images/games/dice/cards.svg");
+
+}
+/* .bc-card:after,#game-container .dice-container .deck:after{
+    content: url(/public/images/games/dice/shadow.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+} */
+.bc-card:after, #game-container .dice-container .deck:after {
+    background-image: url(/public/images/games/dice/shadow.svg);
+    width: 335px;
+    height: 400px;
+    position: absolute;
+    left: -10px;
+    z-index: -1;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media(max-width:1200px){
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 270px;
+
+    }
+
+}
+
+#game-container > div.text-right{
+    position: relative;
+    z-index: 100;
+    margin-top: -20px;
+}
+@media(max-width:992px){
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 235px;
+
+    }
+
+}
+
+
+body.theme-dark-purple .btn-primary{
+    background: linear-gradient(180deg, #22A06A 0%, #0B7347 99.51%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128)!important;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #ffff!important;
+
+}
+
+
+#game-container > div:nth-child(7) > div.form-group.col-lg-4.text-center > div > input,
+
+#game-container > div:nth-child(7) > div.form-group.col-lg-3.text-center > div > input,#game-container .form-group .input-group .input-group-append .btn, #game-container .form-group .input-group .input-group-text{
+    background: linear-gradient(180deg, #1B1C22 0.47%, #1B1C22 100%);
+    box-shadow: 0px 2px 4px #1B1C22;
+    border: 0;
+    font-size: 14px;}
+.form-control.text-center{
+    background: linear-gradient(180deg, #1B1C22 0.47%, #1B1C22 100%);
+    box-shadow: 0px 2px 4px #1B1C22;
+border: 0;
+}
+#game-containe .form-group .input-group .input-group-append .btn:hover,
+#game-container > div:nth-child(7) > div.form-group.col-lg-4.text-center > div > input:hover{
+    color: white!important;
+    background: linear-gradient(180deg, #1B1C22 0.47%, #1B1C22 100%);
+    box-shadow: 0px 2px 4px #1B1C22;
+    border: 0;
+    font-size: 14px;
+}
+label{
+    font-size: 14px;
+}
+
+#game-container .form-group .input-group .rounded {
+    background: linear-gradient(
+            180deg
+            , #FFD200 0%, #FF9500 100%)!important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%)!important;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #000000!important;
+    background-color: #D2BF64!important;
+    border-color: #D2BF64!important;
+}
+
+
+#game-container .dice-container .boss-caption, #game-container .dice-container .player-caption{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.160891px;
+
+    color: #FFFFFF;
+}
+
+img.position-absolute.dice_logo {
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+div#provably-fair-form{
+    position: absolute;
+    width: 100%;
+    top: 125px;
+}
+
+#game-container > div:nth-child(6) > div{
+    z-index: 100;
+}
+
+#game-container > div.form-row.justify-content-center.mt-2 > div{
+    z-index: 100;
+}
+
+
+.form-row.justify-content-center {
+    position: relative;
+    z-index: 1039;
+}
+
+#game-container .dice-container .bc-card.show::after{
+    display: none;
+}
+
+@media(max-width:992px){
+    #game-container .dice-container .deck:after{
+        display: none;
+    }
+}
+
+@media (max-width:769px){
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 190px;
+
+    }
+    .form-row.justify-content-center{
+        position: relative;
+        z-index: 1039;
+    }
+    .container{
+        max-width: 100%!important;
+    }
+    #roll{
+        justify-content: space-between!important;
+    }
+    .col-lg-1.text-center.bg-primary {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.33333333%;
+        flex: 0 0 19.333333%;
+        max-width: 18.333333%;
+    }
+
+    #game-container > div.form-row.justify-content-center.mt-2 > div{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 155px;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div{
+        width: 100%;
+    }
+    .mt-4, .my-4 {
+        margin-top: 1rem!important;
+    }
+    .form-group {
+        margin-bottom: 0.5rem;
+    }
+    .text-center.text-glow.my-3 {
+        margin-top: 42px !important;
+        margin-bottom: 5px!important;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > button{
+        padding-bottom: 8px!important;
+        padding-top: 8px!important;
+    }
+    [data-balloon][data-balloon-pos=down]:after, [data-balloon][data-balloon-pos=down]:before{
+        left: 0!important;
+    }
+    [data-balloon][data-balloon-pos=down]:hover:after, [data-balloon][data-balloon-pos=down]:hover:before, [data-balloon][data-balloon-pos=down][data-balloon-visible]:after, [data-balloon][data-balloon-pos=down][data-balloon-visible]:before {
+        transform: translate(-87%) !important;
+    }
+}
+@media(max-width:426px){
+    #game-container #roll>div span {
+        font-family: monospace;
+        font-size: 3em!important;
+        line-height: 2em;
+    }
+    img.position-absolute.dice_logo{
+        width: 150px;
+    }
+    #game-container{
+        padding: 0!important;
+    }
+    .actions_block.d-inline-block{
+        right: -6px;
+        top: 70px;
+    }
+    #game-container .dice-container{
+        margin-top: 0;
+    }
+
+    img.position-absolute.dice_logo {
+        top: 120px;
+    }
+
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 125px;
+
+    }
+
+    #provably-fair-form .input-group-text,#provably-fair-form .form-control{
+        font-size: 12px;
+    }
+    div#provably-fair-form{
+        top: 100px;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div{
+        width: 100%;
+    }
+}
+
+@media (max-width: 376px){
+    img.position-absolute.dice_logo {
+        width: 105px;
+        top: 130px;
+    }
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 125px;
+
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div{
+        width: 100%;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > button{
+        margin: 10px auto!important;
+    }
+    .form-row>.col, .form-row>[class*=col-] {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    .btn-play {
+        min-width: 115px!important;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > button:nth-child(1){
+        margin-right: 10px!important;
+    }
+}
+
+@media (max-width: 365px){
+
+    .bc-card:after, #game-container .dice-container .deck:after {
+        width: 220px;
+
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div{
+        width: 100%;
+    }
+    .form-row>.col, .form-row>[class*=col-] {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+#game-container > div.form-row.justify-content-center.mt-2 > div > button:nth-child(1),
+#game-container > div.form-row.justify-content-center.mt-2 > div > button:nth-child(2){
+    background: linear-gradient(180deg, #7F9922 0%, #4B761F 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#game-container > div.form-row.justify-content-center.mt-2 > div > button:nth-child(1){
+    margin-right: 20px;
+}
+
+button:hover{
+    background: linear-gradient(
+            180deg
+            , #1B1C22 0.47%, #1B1C22 100%)!important;
+    box-shadow: 0px 2px 4px #1b1c22;
+    border: 0;
+    color: #FFFFFF!important;
+}
+
+#game-container > div:nth-child(6) > div:nth-child(1) > div > input,
+#game-container > div:nth-child(6) > div:nth-child(1) > div > div > button,
+#game-container > div:nth-child(6) > div:nth-child(2) > div > div.input-group-prepend,
+#game-container > div:nth-child(6) > div:nth-child(2) > div > input,
+#game-container > div:nth-child(6) > div:nth-child(2) > div > div.input-group-append > button,
+#game-container > div:nth-child(6) > div:nth-child(3) > div > div{
+    margin-right: 3px!important;
+}
+
+.form-control:focus {
+    color: #e9ecef;
+    background-color: transparent;
+    border: 1px solid #212529;
+    border-color: #212529!important;
+    outline: 0;
+    box-shadow: none!important;
+
+}
+
+#game-container > div.text-right > button:hover,
+#game-container > div.text-right > button > span > i:hover{
+    background: unset!important;
+    border: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+
+
+
+input[type=range]::-moz-range-thumb {
+    background-color: green!important;
+}
+label::before {
+    clip-path: unset!important;
+}
+.custom-control-label:before {
+    background: linear-gradient(180deg, #1B1C22 0.47%, #1F2126 99.77%);
+    box-shadow: 0px 2px 4px #686868!important;
+    border-radius: 8px;
+}
+
+.custom-control-label:before {
+    background: linear-gradient(
+            180deg
+            , #1B1C22 0.47%, #1B1C22 100%);
+    box-shadow: 0px 2px 4px #1b1c22;
+    border-radius: 8px;
+    border: none!important;
+    padding: 2px;
+}
+
+.custom-control-label:after {
+    background: #FFFFFF!important;
+    box-shadow: 0px 2px 4px #1b1c22;
+    border-radius: 8px;
+}
+
+.custom-switch .custom-control-label:before {
+    left: -38px;
+    height: 17px;
+
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+
+#game-container > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div > div > button,
+#game-container > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div > div > button,
+#game-container > div:nth-child(8) > div:nth-child(4) > div > button
+{
+    background: linear-gradient(
+            180deg
+            , #1B1C22 0.47%, #1B1C22 100%)!important;
+    box-shadow: 0px 2px 4px #1b1c22;
+    border: 0;
+    color: #FFFFFF!important;
+    margin-right: 5px;
+}
+
+#game-container > div.form-row.justify-content-center.mt-2 > div > button:hover{
+    background: linear-gradient(
+            180deg
+            , #7F9922 0%, #4B761F 100%)!important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%);
+    border-radius: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media(max-width:830px){
+    #provably-fair-form > div{
+	width:80%;
+	}
+
+    img.position-absolute.dice_logo {
+        top: 110px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:600px){
+img.position-absolute.dice_logo {
+    top: 77px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	width:unset;
+}
+
+}
+
+
+.custom-switch .custom-control-label:after {
+    top: calc(.25rem + 3px)!important
+   }
+
+#game-container > div:nth-child(8) > div:nth-child(4) > div > button.btn.btn-primary{
+margin-top:15px;
+}
+
+#content > div:nth-child(1) > div > div > div.actions_block.d-inline-block > button:hover{
+    background: linear-gradient(
+            180deg
+            , #63279B 0%, #4F0197 100%)!important;
+}
+
+#provably-fair-form{
+    top: -60px!important;
+}
+
+
+#provably-fair-form > div.form-row {
+    display: block !important;
+}
+
+#provably-fair-form > div > div {
+    max-width: 100% !important;
+}
+
+#blackjack > div.mt-2 {
+    display: none !important;
+}
+
+#content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+

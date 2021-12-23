@@ -1,0 +1,1129 @@
+.games-slots-show {
+    position: relative;
+    background-color: unset !important;
+    background-image: url("/public/images/games/slots/slots_blue_background.svg");
+    background-size: cover;
+}
+
+#content {
+    background-color: transparent !important;
+}
+
+#game-container {
+    background: transparent;
+    padding-top: 0!important;
+
+}
+
+[data-balloon] {
+    color: white;
+}
+
+.game-slots-container {
+    margin-bottom: 0;
+}
+
+.text-center.text-glow.my-3 {
+    margin-top: 68px !important;
+    margin-bottom: 0 !important;
+}
+
+.game-slots-container .separators {
+    /* background-image: url("/assets/img/games/slots/slots_background.svg"); */
+
+}
+
+img.position-absolute.slots_logo {
+    top: 134px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.slots_logo_cont {
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.slots_background {
+    top: 375px;
+    left: 283px;
+    z-index: -1;
+    width: calc(75% - 95px - 16px);
+
+}
+
+.slots_background_cont {
+    left: 85px;
+    right: 0;
+    top: calc(16% - 16px);
+    margin: 0 auto;
+    width: calc(75% - 0px - 16px);
+    bottom: 0;
+
+}
+
+.slots_middle_cont {
+    left: 0;
+    right: 0;
+    top: 450px;
+    margin: 0 auto;
+    width: calc(75% - 140px - 16px);
+}
+
+.game-slots-container .line-btns button {
+    font-size: .8rem;
+    line-height: 1rem;
+    padding: 0;
+    width: 32px;
+    height: 42px !important;
+    margin-bottom: 10px;
+}
+
+
+img.position-absolute.slots_middle {
+    bottom: 0;
+    top: 44%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: calc(75% - 210px - 16px);
+}
+
+.actions_block.d-inline-block {
+    position: absolute;
+    right: 35px;
+    top: 89px;
+}
+
+button.btn.btn-outline-light, input.form-control.text-center, button.btn.btn-light {
+    background: linear-gradient(180deg, #01111D 0.47%, #021729 100%) !important;
+    box-shadow: 0px 2px 4px #1D619A;
+    border: none;
+    font-size: 14px;
+    color: white !important;
+
+}
+
+input.form-control.rounded.text-center {
+    background: linear-gradient(180deg, #FFD200 0%, #FF9500 100%) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27128);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+label {
+    font-size: 15px;
+}
+
+button.btn.btn-primary.btn-lg.btn-play.mt-1 {
+    background: linear-gradient(
+            180deg, #7F9922 0%, #4B761F 100%);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 27%);
+    border-radius: 6px;
+}
+
+.custom-control-input:checked ~ .custom-control-label:before, .custom-switch .custom-control-label:before {
+    color: #fff;
+    border-color: #36569F !important;
+    background-color: #36569F !important;
+}
+
+#game-container .line-btns.left button:nth-child(1),
+#game-container .line-btns.left button:nth-child(4),
+#game-container .line-btns.left button:nth-child(7),
+#game-container .line-btns.right button:nth-child(2),
+#game-container .line-btns.right button:nth-child(5),
+#game-container .line-btns.right button:nth-child(8),
+#game-container .line-btns.left button:nth-child(10) {
+    background: #02395E !important;
+}
+
+#game-container .line-btns.left button:nth-child(2),
+#game-container .line-btns.left button:nth-child(5),
+#game-container .line-btns.left button:nth-child(8),
+#game-container .line-btns.right button:nth-child(3),
+#game-container .line-btns.right button:nth-child(9),
+#game-container .line-btns.right button:nth-child(6) {
+    background: #FFD200 !important;
+}
+
+#game-container .line-btns.left button:nth-child(3),
+#game-container .line-btns.left button:nth-child(6),
+#game-container .line-btns.left button:nth-child(9),
+#game-container .line-btns.right button:nth-child(1),
+#game-container .line-btns.right button:nth-child(4),
+#game-container .line-btns.right button:nth-child(7),
+#game-container .line-btns.right button:nth-child(10) {
+
+    background: #63279B !important;
+}
+
+@media (max-width: 2560px) {
+    img.position-absolute.slots_middle {
+        bottom: 0;
+        top: 470px;
+        margin: 0 auto;
+        left: -15px;
+        right: 0;
+        width: calc(45% - 210px - 16px);
+    }
+
+    .slots_background {
+        top: 252px;
+        left: 69px;
+        z-index: -1;
+        width: calc(45% - 95px - 16px);
+        right: 0;
+        margin: 0 auto;
+        height: 781px;
+    }
+}
+
+/* @media (min-width:1600px){
+    .slots_background {
+        top: 375px;
+        left: 390px;
+        z-index: -1;
+        width: calc(65% - 95px - 16px);
+    }
+img.position-absolute.slots_middle {
+    bottom: 0;
+    top: 680px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: calc(65% - 210px - 16px);
+}
+} */
+
+
+/*@media (max-width:2300px){*/
+/*    img.position-absolute.slots_middle {*/
+/*        bottom: 0;*/
+/*        top: 660px;*/
+/*        margin: 0 auto;*/
+/*        left: -15px;*/
+/*        right: 0;*/
+/*        width: calc(50% - 210px - 16px);*/
+/*    }*/
+/*    .slots_background {*/
+/*        top: 375px;*/
+/*        left: 60px;*/
+/*        z-index: -1;*/
+/*        width: calc(50% - 95px - 16px);*/
+/*        right: 0;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width:2300px){*/
+/*    img.position-absolute.slots_middle {*/
+/*        */
+/*        width: calc(55% - 210px - 16px);*/
+/*    }*/
+/*    .slots_background {*/
+/*        */
+/*        width: calc(55% - 95px - 16px);*/
+/*        */
+/*    }*/
+/*}*/
+
+.game-slots-container{
+    height: 440px;
+}
+@media (max-width: 1920px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(60% - 210px - 16px);
+    }
+
+    .slots_background {
+
+        width: calc(60% - 95px - 16px);
+
+    }
+}
+
+
+@media (max-width: 1700px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(65% - 210px - 16px);
+    }
+
+    .slots_background {
+
+        width: calc(65% - 95px - 16px);
+
+    }
+}
+
+@media (max-width: 1600px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(70% - 210px - 16px);
+    }
+
+    .slots_background {
+
+        width: calc(70% - 95px - 16px);
+
+    }
+}
+
+@media (max-width: 1500px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(78% - 210px - 16px);
+    }
+
+    .slots_background {
+
+        width: calc(78% - 95px - 16px);
+
+    }
+}
+
+@media (max-width: 1300px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(91% - 210px - 16px);
+    }
+
+    .slots_background {
+
+        width: calc(91% - 95px - 16px);
+
+    }
+}
+
+@media (max-width: 1026px) {
+    img.position-absolute.slots_middle {
+
+        width: calc(100% - 230px - 27px);
+        height: 195px;
+        top: 675px;
+        object-fit: fill;
+    }
+
+    .slots_background {
+        top: 223px;
+        width: calc(100% - 150px - 16px);
+
+    }
+}
+
+
+@media (max-width: 992px) {
+    #game-container > div.text-center.text-glow.my-3 > span {
+        position: relative;
+        top: 40px;
+    }
+
+    img.position-absolute.slots_middle {
+
+        width: calc(100% - 230px - 27px);
+        height: 195px;
+        top: 675px;
+        object-fit: fill;
+    }
+
+    .slots_background {
+        top: 235px;
+        width: calc(100% - 135px - 16px);
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+    img.position-absolute.slots_middle {
+
+        width: 83%;
+    }
+
+    .slots_background {
+        width: 92%;
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+	
+	.game-slots-container {
+    height: unset;
+}
+    .game-slots-container .separators {
+        width: 43%;
+        height: 420px;
+
+    }
+
+    .game-slots-container canvas {
+        width: 90%;
+        height: 400px;
+    }
+
+    .container, #content {
+        padding: 0 !important;
+    }
+
+    .game-slots-container {
+        align-items: center !important;
+    }
+
+    .p-3 {
+        padding: 0 !important;
+    }
+
+    img.position-absolute.slots_middle {
+        top: 610px;
+    }
+
+    .text-center.text-glow.my-3 {
+        margin-top: 63px !important;
+        margin-bottom: 63px !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .game-slots-container .separators {
+        width: 43%;
+        height: 390px;
+
+    }
+
+    .game-slots-container canvas {
+        width: 90%;
+        height: 370px;
+    }
+
+    .container, #content {
+        padding: 0 !important;
+    }
+
+    .game-slots-container {
+        align-items: center !important;
+    }
+
+    .p-3 {
+        padding: 0 !important;
+    }
+
+    img.position-absolute.slots_middle {
+        top: 610px;
+    }
+
+    .slots_background {
+        top: 447px;
+        width: 96%;
+        left: 30px;
+    }
+}
+
+
+@media (max-width: 570px) {
+    .game-slots-container .separators {
+        width: 43%;
+        height: 340px;
+
+    }
+
+    .game-slots-container canvas {
+        width: 90%;
+        height: 300px;
+    }
+
+    .col {
+        padding-right: 0 !important;
+    }
+
+    .container, #content {
+        padding: 0 !important;
+    }
+
+    #game-container > div.text-right {
+        width: 90% !important;
+    }
+
+    .row {
+
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .game-slots-container {
+        align-items: center !important;
+        justify-content: space-between;
+    }
+
+    .p-3 {
+        padding: 0 !important;
+    }
+
+    img.position-absolute.slots_middle {
+        top: 610px;
+        left: 0;
+    }
+
+    .slots_background {
+        top: 300px;
+        width: 91%;
+        left: 45px;
+        right: 0;
+        margin: 0 auto;
+        height: 455px;
+    }
+
+    #provably-fair-form {
+        width: 85% !important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .game-slots-container .line-btns button {
+
+        width: 25px;
+        height: 35px !important;
+        margin-bottom: 10px;
+    }
+
+    .game-slots-container canvas {
+        width: 100%;
+        height: 260px;
+    }
+
+    .game-slots-container .separators {
+        width: 52%;
+        height: 260px;
+    }
+
+    .slots_background {
+        top: 300px;
+        width: 100%;
+        left: 15px;
+        right: 0;
+
+        margin: 0 auto;
+        height: 347px;
+        object-fit: cover;
+    }
+
+    .game-slots-container {
+        margin-bottom: 90px;
+    }
+
+    img.position-absolute.slots_middle {
+        top: 573px;
+        left: 0;
+        width: 100%;
+        height: 85px;
+        object-fit: fill;
+    }
+}
+
+.actions_block.d-inline-block {
+    z-index: 9;
+}
+
+#provably-fair-form {
+    position: absolute;
+    top: -68px;
+    width: 100%;
+}
+
+@media (max-width: 1025px) {
+    .game-slots-container canvas {
+        height: 450px !important;
+    }
+
+    img.position-absolute.slots_middle {
+        top: 461px;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .game-slots-container canvas {
+        top: 36px;
+        height: 380px !important;
+        width: 80%;
+    }
+
+    #game-container {
+        background: transparent;
+        padding: 0 !important;
+    }
+
+    .slots_background {
+        width: 85%;
+        top: 118px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 425px;
+    }
+    .game-slots-container .line-btns button {
+        font-size: .8rem;
+        line-height: 1rem;
+        padding: 0;
+        width: 28px;
+        height: 28px !important;
+        margin-bottom: 10px;
+    }
+
+    .game-slots-container {
+        align-items: center !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 370px;
+        top: 35px;
+    }
+
+    .form-row.justify-content-center {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .game-slots-container canvas {
+        top: 25px;
+        height: 360px !important;
+        width: 80%;
+    }
+
+    #game-container {
+        background: transparent;
+        padding: 0 !important;
+    }
+
+    .slots_background {
+        width: 85%;
+        top: 300px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 618px;
+    }
+
+    .game-slots-container {
+        align-items: center !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 370px;
+        top: 35px;
+    }
+
+    .form-row.justify-content-center {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .game-slots-container canvas {
+        top: 15px;
+        height: 320px !important;
+        width: 80%;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 608px;
+    }
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 330px;
+        top: 35px;
+    }
+}
+
+@media (max-width: 660px) {
+    .slots_background {
+        width: 85%;
+        top: 300px;
+        left: 50px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 590px;
+    }
+
+    #game-container > div:nth-child(6) {
+        margin-top: 40px !important;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .slots_background {
+        width: 85%;
+        top: 300px;
+        left: 50px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 590px;
+    }
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 265px;
+        top: 35px;
+    }
+
+    .slots_background {
+        width: 94%;
+        top: 300px;
+        left: 24px;
+        right: 0;
+    }
+}
+
+@media (max-width: 572px) {
+    .slots_background {
+        width: 85%;
+        top: 300px;
+        left: 50px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 80%;
+        left: 10px;
+        top: 603px;
+    }
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 275px;
+        top: 0;
+    }
+
+    .game-slots-container canvas {
+        /* top: -13px; */
+        height: 275px !important;
+        width: 80%;
+    }
+
+    .slots_background {
+        width: 94%;
+        top: 300px;
+        left: 22px;
+        margin: 0 auto;
+        right: 0;
+    }
+    .game-slots-container canvas {
+        position: relative;
+        z-index: 2;
+        width: 100% !important;
+    }
+    .slots_background {
+        width: 95%;
+        top: 208px;
+        left: 17px;
+    }
+
+}
+
+@media (max-width: 541px) {
+
+
+
+
+    .game-slots-container .separators {
+        width: 40%;
+        height: 275px;
+        top: 0;
+    }
+
+    .game-slots-container canvas {
+        /* top: -13px; */
+        height: 275px !important;
+        width: 80%;
+    }
+
+    .game-slots-container canvas {
+        top: -3px;
+        height: 275px !important;
+        width: 80%;
+    }
+
+    .game-slots-container .line-btns button {
+        font-size: .8rem;
+        line-height: 1rem;
+        padding: 0;
+        width: 30px;
+        height: 35px !important;
+        margin-bottom: 10px;
+    }
+
+    .game-slots-container .line-btns {
+        width: 100%;
+    }
+
+    .game-slots-container canvas {
+        top: 0px;
+        height: 180px !important;
+        width: 100%;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 90%;
+        left: 4px;
+        top: 377px !important;
+    }
+}
+
+@media (max-width: 481px) {
+    .game-slots-container canvas {
+        top: -3px;
+        height: 275px !important;
+        width: 100%;
+    }
+
+
+    .game-slots-container .separators {
+        width: 50%;
+        height: 275px;
+        top: 0;
+    }
+    label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 426px) {
+    .game-slots-container canvas {
+        top: 0px;
+        height: 180px !important;
+        width: 100%;
+    }
+    .line-btns {
+        width: 100%;
+    }
+
+    img.position-absolute.slots_logo {
+        top: 76px;
+        width: 50%;
+    }
+
+    .game-slots-container canvas {
+        width: 100%;
+        height: 260px;
+    }
+
+    .game-slots-container .separators {
+        width: 52%;
+        height: 161px;
+    }
+
+    .slots_background {
+        top: 300px;
+        width: 100%;
+        left: 10px;
+        right: 0;
+    }
+
+    .game-slots-container {
+        margin-bottom: 5px;
+    }
+
+    img.position-absolute.slots_middle {
+        height: 78px;
+        object-fit: cover;
+        width: 90%;
+        left: 4px;
+        top: 344px !important;
+    }
+
+    img.position-absolute.slots_logo {
+        top: 75px;
+        left: -37px;
+        right: 0;
+        margin: 0 auto;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 11px;
+        top: 69px;
+    }
+    .text-center.text-glow.my-3 {
+        margin-top: 12px !important;
+        margin-bottom: 55px !important;
+    }
+
+    .slots_background {
+        width: 87%;
+        top: 165px;
+        left: 48px;
+    }
+    #game-container > div:nth-child(6) {
+        margin-top: 5px !important;
+    }
+
+    .game-slots-container canvas {
+        margin: 0px;
+    }
+    .game-slots-container .line-btns {
+        width: 100%;
+        margin-top: 3px;
+    }
+    .btn-group-sm>.btn, .btn-sm {
+        font-size: 12px!important;
+    }
+    #game-container > div.form-row.justify-content-center.mt-2 > div > div > button{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .game-slots-container canvas {
+        top: 0px;
+        height: 180px !important;
+        width: 100%;
+    }
+
+    .slots_background {
+        width: 100%;
+        top: 217px;
+        left: 17px;
+    }
+
+}
+
+@media (max-width: 377px) {
+    .slots_background {
+        width: 94%;
+        top: 260px;
+        left: 24px;
+        right: 0;
+    }
+    #game-container > div:nth-child(6) {
+        margin-top: 11px !important;
+    }
+    img.position-absolute.slots_logo {
+        top: 76px;
+        width: 43%;
+    }
+    #content > div:nth-child(1){
+        height: 0!important;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 11px;
+        top: 40px;
+    }
+    .slots_background {
+        width: 90%;
+        top: 216px;
+        left: 24px;
+        right: 0;
+    }
+    .form-group {
+        margin-bottom: 8px!important;
+    }
+    img.position-absolute.slots_middle {
+        width: 94%;
+        left: 5px;
+        top: 322px !important;
+        height: 74px;
+    }
+
+}
+@media (max-width: 321px) {
+    .slots_background {
+        width: 94%;
+        top: 260px;
+        left: 24px;
+        right: 0;
+    }
+    #game-container > div:nth-child(6) {
+        margin-top: 11px !important;
+    }
+    img.position-absolute.slots_logo {
+        top: 76px;
+        width: 43%;
+    }
+    #content > div:nth-child(1){
+        height: 0!important;
+    }
+    .actions_block.d-inline-block {
+        position: absolute;
+        right: 11px;
+        top: 40px;
+    }
+    .slots_background {
+        width: 85%;
+        top: 191px;
+        left: 16px;
+        right: 0;
+    }
+    .form-group {
+        margin-bottom: 8px!important;
+    }
+    img.position-absolute.slots_middle {
+        width: 94%;
+        left: 5px;
+        top: 335px !important;
+    }
+
+    .game-slots-container canvas {
+        position: relative;
+        z-index: 2;
+        width: 107% !important;
+    }
+
+    .game-slots-container .line-btns button {
+        font-size: .8rem;
+        line-height: 1rem;
+        padding: 0;
+        width: 23px;
+        height: 25px !important;
+        margin-bottom: 10px;
+    }
+
+    img.position-absolute.slots_middle {
+        width: 94%;
+        left: 5px;
+        top: 302px !important;
+        height:65px;
+    }
+
+    .game-slots-container canvas {
+        top: 0px;
+        height: 154px !important;
+        width: 100%;
+    }
+
+    .slots_background {
+        height: 311px;
+    }
+
+
+
+}
+
+#game-container > div.text-right {
+    position: relative;
+    z-index: 10;
+}
+
+.custom-control-label:before {
+    background: linear-gradient(180deg, #1B1C22 0.47%, #1F2126 99.77%);
+    box-shadow: 0px 2px 4px #686868 !important;
+    border-radius: 8px;
+}
+
+.custom-control-label:before {
+    background: #36569F;
+    box-shadow: 0px 2px 4px #1b1c22;
+    border-radius: 8px;
+    border: none !important;
+    padding: 2px;
+}
+
+.custom-control-label:after {
+    background: #FFFFFF !important;
+    box-shadow: 0px 2px 4px #1b1c22;
+    border-radius: 8px;
+}
+
+.custom-switch .custom-control-label:before {
+    left: -38px;
+    height: 17px;
+
+}
+
+label::before {
+    clip-path: unset !important;
+}
+
+#game-container > div:nth-child(8) > div:nth-child(4) > div > button.btn.btn-primary {
+    margin-top: 15px
+}
+
+#provably-fair-form > div.form-row{
+    display: block!important;
+}
+
+#provably-fair-form > div > div{
+    max-width: 100%!important;
+}
+
+
+
+#content{
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+#content > div:nth-child(1) > div > div{
+    margin-bottom: 0!important;
+}
+
+#content > div:nth-child(2){
+    padding-top: 0!important;
+}
+
+#paytable > div > div > div{
+
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+#game-container > div:nth-child(6){
+    margin-top: 66px;
+}
+
+.game-slots-container canvas {
+    position: relative;
+    z-index: 2;
+    width: calc(97% - 64px - 16px);
+}
+
+#game-container > div:nth-child(6) > div.form-group.col-lg-4.text-center{
+    z-index: 10!important;
+}
+
+#game-container > div.text-right > button > span > i{
+    margin-right: 8px;
+}
+
